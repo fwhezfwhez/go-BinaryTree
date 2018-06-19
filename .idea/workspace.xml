@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="485ccf8a-7586-4843-a4dd-f8e6cd0c7cb1" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/BinaryNode.go" afterPath="$PROJECT_DIR$/BinaryNode.go" />
       <change beforePath="$PROJECT_DIR$/BinaryNode_test.go" afterPath="$PROJECT_DIR$/BinaryNode_test.go" />
     </list>
@@ -17,7 +18,7 @@
       <file leaf-file-name="doc.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/doc.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="182">
               <caret line="7" column="75" lean-forward="false" selection-start-line="7" selection-start-column="75" selection-end-line="7" selection-end-column="75" />
               <folding />
             </state>
@@ -27,8 +28,8 @@
       <file leaf-file-name="btInterface.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/btInterface.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="3" column="36" lean-forward="false" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+            <state relative-caret-position="260">
+              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -37,8 +38,8 @@
       <file leaf-file-name="BinaryNode.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BinaryNode.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="165" column="18" lean-forward="true" selection-start-line="165" selection-start-column="18" selection-end-line="165" selection-end-column="18" />
+            <state relative-caret-position="-228">
+              <caret line="246" column="29" lean-forward="true" selection-start-line="246" selection-start-column="29" selection-end-line="246" selection-end-column="29" />
               <folding>
                 <element signature="e#15#46#0" expanded="true" />
               </folding>
@@ -49,8 +50,8 @@
       <file leaf-file-name="BinaryNode_test.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BinaryNode_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="451">
-              <caret line="66" column="19" lean-forward="false" selection-start-line="66" selection-start-column="19" selection-end-line="66" selection-end-column="19" />
+            <state relative-caret-position="358">
+              <caret line="81" column="24" lean-forward="false" selection-start-line="81" selection-start-column="24" selection-end-line="81" selection-end-column="24" />
               <folding>
                 <element signature="e#15#31#0" expanded="true" />
               </folding>
@@ -61,8 +62,8 @@
       <file leaf-file-name="testing.go" pinned="false" current-in-tab="false">
         <entry file="file://E:/go/src/testing/testing.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18486">
-              <caret line="727" column="0" lean-forward="false" selection-start-line="727" selection-start-column="0" selection-end-line="727" selection-end-column="0" />
+            <state relative-caret-position="400">
+              <caret line="741" column="0" lean-forward="false" selection-start-line="741" selection-start-column="0" selection-end-line="741" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -71,8 +72,8 @@
       <file leaf-file-name="panic.go" pinned="false" current-in-tab="false">
         <entry file="file://E:/go/src/runtime/panic.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15236">
-              <caret line="590" column="0" lean-forward="false" selection-start-line="590" selection-start-column="0" selection-end-line="590" selection-end-column="0" />
+            <state relative-caret-position="244">
+              <caret line="553" column="0" lean-forward="false" selection-start-line="553" selection-start-column="0" selection-end-line="553" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -132,8 +133,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -145,6 +144,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -164,7 +165,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestGetAncestor in BinaryNode_test.go">
+  <component name="RunManager" selected="Go Test.TestBinaryNode_GetMaxDepth in BinaryNode_test.go">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="BinaryNode" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -174,50 +175,50 @@
       <package value="BinaryNode" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
-    <configuration name="TestBinaryNode_FindMin in BinaryNode_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+    <configuration name="TestBinaryNode_GetDepth in BinaryNode_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
       <module name="go-BinaryNode" />
       <working_directory value="$PROJECT_DIR$" />
       <go_parameters value="-i" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
       <package value="BTree" />
-      <pattern value="^TestBinaryNode_FindMin$" />
+      <pattern value="^TestBinaryNode_GetDepth$" />
     </configuration>
-    <configuration name="TestBinaryNode_Insert in BinaryNode_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+    <configuration name="TestBinaryNode_GetDistance in BinaryNode_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
       <module name="go-BinaryNode" />
       <working_directory value="$PROJECT_DIR$" />
       <go_parameters value="-i" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
       <package value="BTree" />
-      <pattern value="^TestBinaryNode_Insert$" />
+      <pattern value="^TestBinaryNode_GetDistance$" />
     </configuration>
-    <configuration name="TestBinaryNode_Remove in BinaryNode_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+    <configuration name="TestBinaryNode_GetMaxDepth in BinaryNode_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
       <module name="go-BinaryNode" />
       <working_directory value="$PROJECT_DIR$" />
       <go_parameters value="-i" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
       <package value="BTree" />
-      <pattern value="^TestBinaryNode_Remove$" />
+      <pattern value="^TestBinaryNode_GetMaxDepth$" />
     </configuration>
-    <configuration name="TestCompare in BinaryNode_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+    <configuration name="TestBinaryNode_GetMaxDistance in BinaryNode_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
       <module name="go-BinaryNode" />
       <working_directory value="$PROJECT_DIR$" />
       <go_parameters value="-i" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
       <package value="BTree" />
-      <pattern value="^TestCompare$" />
+      <pattern value="^TestBinaryNode_GetMaxDistance$" />
     </configuration>
-    <configuration name="TestGetAncestor in BinaryNode_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+    <configuration name="TestMmax in BinaryNode_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
       <module name="go-BinaryNode" />
       <working_directory value="$PROJECT_DIR$" />
       <go_parameters value="-i" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
       <package value="BTree" />
-      <pattern value="^TestGetAncestor$" />
+      <pattern value="^TestMmax$" />
     </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
       <module name="BinaryNode" />
@@ -228,19 +229,19 @@
       <package value="BinaryNode" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Go Test.TestBinaryNode_FindMin in BinaryNode_test.go" />
-      <item index="1" class="java.lang.String" itemvalue="Go Test.TestBinaryNode_Insert in BinaryNode_test.go" />
-      <item index="2" class="java.lang.String" itemvalue="Go Test.TestBinaryNode_Remove in BinaryNode_test.go" />
-      <item index="3" class="java.lang.String" itemvalue="Go Test.TestCompare in BinaryNode_test.go" />
-      <item index="4" class="java.lang.String" itemvalue="Go Test.TestGetAncestor in BinaryNode_test.go" />
+      <item index="0" class="java.lang.String" itemvalue="Go Test.TestBinaryNode_GetDepth in BinaryNode_test.go" />
+      <item index="1" class="java.lang.String" itemvalue="Go Test.TestBinaryNode_GetDistance in BinaryNode_test.go" />
+      <item index="2" class="java.lang.String" itemvalue="Go Test.TestBinaryNode_GetMaxDepth in BinaryNode_test.go" />
+      <item index="3" class="java.lang.String" itemvalue="Go Test.TestBinaryNode_GetMaxDistance in BinaryNode_test.go" />
+      <item index="4" class="java.lang.String" itemvalue="Go Test.TestMmax in BinaryNode_test.go" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Go Test.TestGetAncestor in BinaryNode_test.go" />
-        <item index="1" class="java.lang.String" itemvalue="Go Test.TestBinaryNode_Remove in BinaryNode_test.go" />
-        <item index="2" class="java.lang.String" itemvalue="Go Test.TestBinaryNode_Insert in BinaryNode_test.go" />
-        <item index="3" class="java.lang.String" itemvalue="Go Test.TestBinaryNode_FindMin in BinaryNode_test.go" />
-        <item index="4" class="java.lang.String" itemvalue="Go Test.TestCompare in BinaryNode_test.go" />
+        <item index="0" class="java.lang.String" itemvalue="Go Test.TestBinaryNode_GetMaxDepth in BinaryNode_test.go" />
+        <item index="1" class="java.lang.String" itemvalue="Go Test.TestBinaryNode_GetMaxDistance in BinaryNode_test.go" />
+        <item index="2" class="java.lang.String" itemvalue="Go Test.TestMmax in BinaryNode_test.go" />
+        <item index="3" class="java.lang.String" itemvalue="Go Test.TestBinaryNode_GetDistance in BinaryNode_test.go" />
+        <item index="4" class="java.lang.String" itemvalue="Go Test.TestBinaryNode_GetDepth in BinaryNode_test.go" />
       </list>
     </recent_temporary>
   </component>
@@ -248,35 +249,35 @@
     <option name="remove_strategy" value="false" />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestBinaryNode_Remove_in_BinaryNode_test_go - 2018.06.15 at 18h 01m 38s.xml">
-      <configuration name="TestBinaryNode_Remove in BinaryNode_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestBinaryNode_GetMaxDepth_in_BinaryNode_test_go - 2018.06.19 at 17h 09m 14s.xml">
+      <configuration name="TestBinaryNode_GetMaxDepth in BinaryNode_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestBinaryNode_Remove_in_BinaryNode_test_go - 2018.06.15 at 18h 01m 45s.xml">
-      <configuration name="TestBinaryNode_Remove in BinaryNode_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestBinaryNode_GetMaxDistance_in_BinaryNode_test_go - 2018.06.19 at 16h 59m 19s.xml">
+      <configuration name="TestBinaryNode_GetMaxDistance in BinaryNode_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestBinaryNode_Remove_in_BinaryNode_test_go - 2018.06.15 at 18h 01m 57s.xml">
-      <configuration name="TestBinaryNode_Remove in BinaryNode_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestBinaryNode_GetMaxDistance_in_BinaryNode_test_go - 2018.06.19 at 17h 01m 13s.xml">
+      <configuration name="TestBinaryNode_GetMaxDistance in BinaryNode_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestBinaryNode_Remove_in_BinaryNode_test_go - 2018.06.15 at 18h 02m 11s.xml">
-      <configuration name="TestBinaryNode_Remove in BinaryNode_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestBinaryNode_GetMaxDistance_in_BinaryNode_test_go - 2018.06.19 at 17h 02m 24s.xml">
+      <configuration name="TestBinaryNode_GetMaxDistance in BinaryNode_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestBinaryNode_Remove_in_BinaryNode_test_go - 2018.06.15 at 18h 02m 22s.xml">
-      <configuration name="TestBinaryNode_Remove in BinaryNode_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestBinaryNode_GetMaxDistance_in_BinaryNode_test_go - 2018.06.19 at 17h 04m 28s.xml">
+      <configuration name="TestBinaryNode_GetMaxDistance in BinaryNode_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestBinaryNode_Remove_in_BinaryNode_test_go - 2018.06.15 at 18h 03m 53s.xml">
-      <configuration name="TestBinaryNode_Remove in BinaryNode_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestBinaryNode_GetMaxDistance_in_BinaryNode_test_go - 2018.06.19 at 17h 07m 17s.xml">
+      <configuration name="TestBinaryNode_GetMaxDistance in BinaryNode_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestGetAncestor_in_BinaryNode_test_go - 2018.06.19 at 09h 12m 51s.xml">
-      <configuration name="TestGetAncestor in BinaryNode_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestBinaryNode_GetMaxDistance_in_BinaryNode_test_go - 2018.06.19 at 17h 09m 02s.xml">
+      <configuration name="TestBinaryNode_GetMaxDistance in BinaryNode_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestGetAncestor_in_BinaryNode_test_go - 2018.06.19 at 09h 13m 25s.xml">
-      <configuration name="TestGetAncestor in BinaryNode_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestMmax_in_BinaryNode_test_go - 2018.06.19 at 17h 01m 28s.xml">
+      <configuration name="TestMmax in BinaryNode_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestGetAncestor_in_BinaryNode_test_go - 2018.06.19 at 09h 13m 43s.xml">
-      <configuration name="TestGetAncestor in BinaryNode_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestMmax_in_BinaryNode_test_go - 2018.06.19 at 17h 02m 03s.xml">
+      <configuration name="TestMmax in BinaryNode_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestGetAncestor_in_BinaryNode_test_go - 2018.06.19 at 09h 13m 56s.xml">
-      <configuration name="TestGetAncestor in BinaryNode_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestMmax_in_BinaryNode_test_go - 2018.06.19 at 17h 02m 29s.xml">
+      <configuration name="TestMmax in BinaryNode_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -286,11 +287,11 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32901832" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3280255" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.399137" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39808917" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -331,16 +332,74 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/BinaryNode_test.go</url>
-          <line>66</line>
+          <line>85</line>
           <properties />
-          <option name="timeStamp" value="13" />
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/BinaryNode_test.go</url>
+          <line>88</line>
+          <properties />
+          <option name="timeStamp" value="26" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="14" />
+      <option name="time" value="27" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/doc.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="75" lean-forward="false" selection-start-line="7" selection-start-column="75" selection-end-line="7" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BinaryNode.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4420">
+          <caret line="173" column="0" lean-forward="true" selection-start-line="173" selection-start-column="0" selection-end-line="173" selection-end-column="0" />
+          <folding>
+            <element signature="e#15#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BinaryNode_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1716">
+          <caret line="66" column="19" lean-forward="false" selection-start-line="66" selection-start-column="19" selection-end-line="66" selection-end-column="19" />
+          <folding>
+            <element signature="e#15#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/go/src/testing/testing.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18486">
+          <caret line="727" column="0" lean-forward="false" selection-start-line="727" selection-start-column="0" selection-end-line="727" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/go/src/runtime/panic.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15236">
+          <caret line="590" column="0" lean-forward="false" selection-start-line="590" selection-start-column="0" selection-end-line="590" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/btInterface.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/doc.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
@@ -429,42 +488,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/doc.go">
+    <entry file="file://E:/go/src/testing/testing.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="7" column="75" lean-forward="false" selection-start-line="7" selection-start-column="75" selection-end-line="7" selection-end-column="75" />
+        <state relative-caret-position="400">
+          <caret line="741" column="0" lean-forward="false" selection-start-line="741" selection-start-column="0" selection-end-line="741" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://E:/go/src/runtime/panic.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15236">
-          <caret line="590" column="0" lean-forward="false" selection-start-line="590" selection-start-column="0" selection-end-line="590" selection-end-column="0" />
+        <state relative-caret-position="244">
+          <caret line="553" column="0" lean-forward="false" selection-start-line="553" selection-start-column="0" selection-end-line="553" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/go/src/testing/testing.go">
+    <entry file="file://$PROJECT_DIR$/doc.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18486">
-          <caret line="727" column="0" lean-forward="false" selection-start-line="727" selection-start-column="0" selection-end-line="727" selection-end-column="0" />
+        <state relative-caret-position="182">
+          <caret line="7" column="75" lean-forward="false" selection-start-line="7" selection-start-column="75" selection-end-line="7" selection-end-column="75" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/btInterface.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="3" column="36" lean-forward="false" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+        <state relative-caret-position="260">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BinaryNode_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="66" column="19" lean-forward="false" selection-start-line="66" selection-start-column="19" selection-end-line="66" selection-end-column="19" />
+        <state relative-caret-position="358">
+          <caret line="81" column="24" lean-forward="false" selection-start-line="81" selection-start-column="24" selection-end-line="81" selection-end-column="24" />
           <folding>
             <element signature="e#15#31#0" expanded="true" />
           </folding>
@@ -473,8 +532,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BinaryNode.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="165" column="18" lean-forward="true" selection-start-line="165" selection-start-column="18" selection-end-line="165" selection-end-column="18" />
+        <state relative-caret-position="-228">
+          <caret line="246" column="29" lean-forward="true" selection-start-line="246" selection-start-column="29" selection-end-line="246" selection-end-column="29" />
           <folding>
             <element signature="e#15#46#0" expanded="true" />
           </folding>
