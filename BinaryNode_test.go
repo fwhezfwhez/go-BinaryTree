@@ -1,7 +1,7 @@
 package BTree
 
 import "testing"
-var node,node2,node3,node4,node5 *BinaryNode
+var node *BinaryNode
 func Init(){
 	node=New(7)
 //	node2,_ =node.Insert(5)
