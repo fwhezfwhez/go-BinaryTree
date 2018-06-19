@@ -12,6 +12,14 @@ type BinaryNode struct {
 	Right  *BinaryNode
 }
 
+type AVL struct{
+	root *BinaryNode
+}
+
+type RedBlack struct{
+	root *BinaryNode
+}
+
 //new a node
 func New(data interface{}) *BinaryNode {
 	return &BinaryNode{data, nil, nil, nil}
@@ -104,17 +112,58 @@ func (bt *BinaryNode) Remove(x interface{}) (*BinaryNode,error) {
 			return nil,er
 		}
 	}else if bt.Left!=nil && bt.Right!=nil {
-		tmp,_:=bt.Right.FindMin()
+		tmp,_:= bt.Right.FindMin()
 		bt.Right,_ = bt.Right.Remove(tmp.Data)
 	}else{
 		if bt.Left!=nil{
 			bt = bt.Left
 		}else{
-			bt=bt.Right
+			bt = bt.Right
 		}
 	}
 
 	return bt,nil
+}
+
+//Get the nearest ancestor of two node
+func (bt *BinaryNode)GetAncestor(node1,node2 *BinaryNode) (*BinaryNode,error){
+	rs1,er:=Compare(node1.Data, bt.Data)
+	if er!=nil{
+		return nil,er
+	}
+	rs2,er:=Compare(node2.Data, bt.Data)
+	if er!=nil{
+		return nil,er
+	}
+	if rs1==1 && rs2 ==1 {
+		return bt.Right.GetAncestor(node1,node2)
+	}else if rs1==-1 && rs2==-1{
+		return bt.Left.GetAncestor(node1,node2)
+	}else{
+		return bt,nil
+	}
+}
+
+//transfer a bt to a redBlack pattern
+//what is a red-black tree,refer to www.baidu.com, www.google.com
+func ToRedBlack()(*BinaryNode,error){
+	return nil,nil
+}
+
+//transfer a bt to an avl parttern
+//what is an avl tree,refer to www.baidu.com,www.google.com
+func ToAVL()(*BinaryNode,error){
+	return nil,nil
+}
+
+//rotate left
+func (av *RedBlack) LeftRotate()(*AVL,error){
+	return nil,nil
+}
+
+//rotate right
+func (av *RedBlack) RightRotate()(*AVL,error){
+	return nil,nil
 }
 
 //compare two interface{} value ,only supports for int,int64,int32,int16,int8,string,float32,float64
@@ -207,3 +256,4 @@ func Compare(v1 interface{}, v2 interface{}) (int, error) {
 	}
 	return -1, errors.New("only support compare int,int8,int16,int32,int64,float32,float64,string")
 }
+

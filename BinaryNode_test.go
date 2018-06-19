@@ -60,3 +60,9 @@ func TestBinaryNode_Remove(t *testing.T) {
 	}
 	t.Log(node.FindMax())
 }
+func TestGetAncestor(t *testing.T) {
+	Init()
+	n1 := New(8)
+	n2 :=New(11)
+	t.Log(node.GetAncestor(n1,n2))
+}
