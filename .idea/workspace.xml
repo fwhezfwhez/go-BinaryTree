@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="485ccf8a-7586-4843-a4dd-f8e6cd0c7cb1" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/Interface.go" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/BinaryNode.go" afterPath="$PROJECT_DIR$/BinaryNode.go" />
-      <change beforePath="$PROJECT_DIR$/doc.go" afterPath="$PROJECT_DIR$/doc.go" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,7 +13,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BinaryNode.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BinaryNode.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BinaryNode.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1064">
@@ -57,6 +54,27 @@
                 <element signature="n#!!block;n#SmartPrint#0" expanded="false" />
                 <element signature="n#!!block;n#IfZero#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="139">
+                <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+                <folding>
+                  <marker date="1529567432372" expanded="true" signature="227:279" ph="..." />
+                  <marker date="1529567432372" expanded="true" signature="322:477" ph="{...}" />
+                  <marker date="1529567432372" expanded="true" signature="490:2247" ph="{...}" />
+                  <marker date="1529567432372" expanded="true" signature="861:901" ph="/.../" />
+                  <marker date="1529567432372" expanded="true" signature="861:975" ph="/.../" />
+                  <marker date="1529567432372" expanded="true" signature="1032:1130" ph="/.../" />
+                  <marker date="1529567432372" expanded="true" signature="1173:1293" ph="/.../" />
+                </folding>
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -108,13 +126,13 @@
         <option value="$PROJECT_DIR$/btInterface.go" />
         <option value="$PROJECT_DIR$/init.go" />
         <option value="$PROJECT_DIR$/Cached.go" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/BinaryNode_test.go" />
         <option value="$PROJECT_DIR$/BinaryNode.go" />
         <option value="$PROJECT_DIR$/doc.go" />
         <option value="$PROJECT_DIR$/doc.go" />
         <option value="$PROJECT_DIR$/Interface.go" />
         <option value="$PROJECT_DIR$/BinaryNode.go" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -440,13 +458,13 @@
           <first_editor relative-caret-position="2184">
             <caret line="84" column="1" lean-forward="true" selection-start-line="84" selection-start-column="1" selection-end-line="84" selection-end-column="1" />
             <folding>
-              <marker date="1529553255706" expanded="true" signature="227:279" ph="..." />
-              <marker date="1529553255706" expanded="true" signature="322:474" ph="{...}" />
-              <marker date="1529553255706" expanded="true" signature="487:2244" ph="{...}" />
-              <marker date="1529553255706" expanded="true" signature="858:898" ph="/.../" />
-              <marker date="1529553255706" expanded="true" signature="858:972" ph="/.../" />
-              <marker date="1529553255706" expanded="true" signature="1029:1127" ph="/.../" />
-              <marker date="1529553255706" expanded="true" signature="1170:1290" ph="/.../" />
+              <marker date="1529567432372" expanded="true" signature="227:279" ph="..." />
+              <marker date="1529567432372" expanded="true" signature="322:477" ph="{...}" />
+              <marker date="1529567432372" expanded="true" signature="490:2247" ph="{...}" />
+              <marker date="1529567432372" expanded="true" signature="861:901" ph="/.../" />
+              <marker date="1529567432372" expanded="true" signature="861:975" ph="/.../" />
+              <marker date="1529567432372" expanded="true" signature="1032:1130" ph="/.../" />
+              <marker date="1529567432372" expanded="true" signature="1173:1293" ph="/.../" />
             </folding>
           </first_editor>
           <second_editor />
@@ -468,13 +486,13 @@
           <first_editor relative-caret-position="130">
             <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
             <folding>
-              <marker date="1529553255706" expanded="true" signature="227:279" ph="..." />
-              <marker date="1529553255706" expanded="true" signature="322:474" ph="{...}" />
-              <marker date="1529553255706" expanded="true" signature="487:2244" ph="{...}" />
-              <marker date="1529553255706" expanded="true" signature="858:898" ph="/.../" />
-              <marker date="1529553255706" expanded="true" signature="858:972" ph="/.../" />
-              <marker date="1529553255706" expanded="true" signature="1029:1127" ph="/.../" />
-              <marker date="1529553255706" expanded="true" signature="1170:1290" ph="/.../" />
+              <marker date="1529567432372" expanded="true" signature="227:279" ph="..." />
+              <marker date="1529567432372" expanded="true" signature="322:477" ph="{...}" />
+              <marker date="1529567432372" expanded="true" signature="490:2247" ph="{...}" />
+              <marker date="1529567432372" expanded="true" signature="861:901" ph="/.../" />
+              <marker date="1529567432372" expanded="true" signature="861:975" ph="/.../" />
+              <marker date="1529567432372" expanded="true" signature="1032:1130" ph="/.../" />
+              <marker date="1529567432372" expanded="true" signature="1173:1293" ph="/.../" />
             </folding>
           </first_editor>
           <second_editor />
@@ -634,13 +652,13 @@
           <first_editor relative-caret-position="130">
             <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
             <folding>
-              <marker date="1529553255706" expanded="true" signature="227:279" ph="..." />
-              <marker date="1529553255706" expanded="true" signature="322:474" ph="{...}" />
-              <marker date="1529553255706" expanded="true" signature="487:2244" ph="{...}" />
-              <marker date="1529553255706" expanded="true" signature="858:898" ph="/.../" />
-              <marker date="1529553255706" expanded="true" signature="858:972" ph="/.../" />
-              <marker date="1529553255706" expanded="true" signature="1029:1127" ph="/.../" />
-              <marker date="1529553255706" expanded="true" signature="1170:1290" ph="/.../" />
+              <marker date="1529567432372" expanded="true" signature="227:279" ph="..." />
+              <marker date="1529567432372" expanded="true" signature="322:477" ph="{...}" />
+              <marker date="1529567432372" expanded="true" signature="490:2247" ph="{...}" />
+              <marker date="1529567432372" expanded="true" signature="861:901" ph="/.../" />
+              <marker date="1529567432372" expanded="true" signature="861:975" ph="/.../" />
+              <marker date="1529567432372" expanded="true" signature="1032:1130" ph="/.../" />
+              <marker date="1529567432372" expanded="true" signature="1173:1293" ph="/.../" />
             </folding>
           </first_editor>
           <second_editor />
@@ -899,25 +917,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="451">
-            <caret line="83" column="35" lean-forward="true" selection-start-line="83" selection-start-column="35" selection-end-line="83" selection-end-column="35" />
-            <folding>
-              <marker date="1529553255706" expanded="true" signature="227:279" ph="..." />
-              <marker date="1529553255706" expanded="true" signature="322:474" ph="{...}" />
-              <marker date="1529553255706" expanded="true" signature="487:2244" ph="{...}" />
-              <marker date="1529553255706" expanded="true" signature="858:898" ph="/.../" />
-              <marker date="1529553255706" expanded="true" signature="858:972" ph="/.../" />
-              <marker date="1529553255706" expanded="true" signature="1029:1127" ph="/.../" />
-              <marker date="1529553255706" expanded="true" signature="1170:1290" ph="/.../" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Cached.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="439">
@@ -992,6 +991,25 @@
             <element signature="n#!!block;n#SmartPrint#0" expanded="false" />
             <element signature="n#!!block;n#IfZero#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="139">
+            <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+            <folding>
+              <marker date="1529567432372" expanded="true" signature="227:279" ph="..." />
+              <marker date="1529567432372" expanded="true" signature="322:477" ph="{...}" />
+              <marker date="1529567432372" expanded="true" signature="490:2247" ph="{...}" />
+              <marker date="1529567432372" expanded="true" signature="861:901" ph="/.../" />
+              <marker date="1529567432372" expanded="true" signature="861:975" ph="/.../" />
+              <marker date="1529567432372" expanded="true" signature="1032:1130" ph="/.../" />
+              <marker date="1529567432372" expanded="true" signature="1173:1293" ph="/.../" />
+            </folding>
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

@@ -15,7 +15,7 @@ import (
 )
 var node,node2 *bt.BinaryNode
 func init() {
-		node=bt.New(7)
+	    node=bt.New(7)
     	node2,_ =node.Insert(5)
     	node.Insert(9)
     	node.Insert(11)
