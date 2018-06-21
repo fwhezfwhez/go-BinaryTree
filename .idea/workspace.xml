@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="485ccf8a-7586-4843-a4dd-f8e6cd0c7cb1" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/BinaryNode.go" afterPath="$PROJECT_DIR$/BinaryNode.go" />
       <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,11 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BinaryNode.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BinaryNode.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BinaryNode.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="276" column="30" lean-forward="false" selection-start-line="276" selection-start-column="30" selection-end-line="276" selection-end-column="30" />
+            <state relative-caret-position="350">
+              <caret line="399" column="27" lean-forward="false" selection-start-line="399" selection-start-column="27" selection-end-line="399" selection-end-column="27" />
               <folding>
                 <element signature="e#15#53#0" expanded="true" />
               </folding>
@@ -26,23 +25,45 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="364">
-                <caret line="59" column="34" lean-forward="false" selection-start-line="59" selection-start-column="34" selection-end-line="59" selection-end-column="34" />
+              <first_editor relative-caret-position="320">
+                <caret line="84" column="1" lean-forward="true" selection-start-line="84" selection-start-column="1" selection-end-line="84" selection-end-column="1" />
                 <folding>
-                  <marker date="1529552498790" expanded="true" signature="115:167" ph="..." />
-                  <marker date="1529552498790" expanded="true" signature="210:362" ph="{...}" />
-                  <marker date="1529552498790" expanded="true" signature="375:1559" ph="{...}" />
-                  <marker date="1529552498790" expanded="true" signature="746:786" ph="/.../" />
-                  <marker date="1529552498790" expanded="true" signature="746:860" ph="/.../" />
-                  <marker date="1529552498790" expanded="true" signature="917:1015" ph="/.../" />
-                  <marker date="1529552498790" expanded="true" signature="1058:1178" ph="/.../" />
+                  <marker date="1529553255706" expanded="true" signature="227:279" ph="..." />
+                  <marker date="1529553255706" expanded="true" signature="322:474" ph="{...}" />
+                  <marker date="1529553255706" expanded="true" signature="487:2244" ph="{...}" />
+                  <marker date="1529553255706" expanded="true" signature="858:898" ph="/.../" />
+                  <marker date="1529553255706" expanded="true" signature="858:972" ph="/.../" />
+                  <marker date="1529553255706" expanded="true" signature="1029:1127" ph="/.../" />
+                  <marker date="1529553255706" expanded="true" signature="1170:1290" ph="/.../" />
                 </folding>
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Cached.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Cached.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="54" column="51" lean-forward="false" selection-start-line="54" selection-start-column="50" selection-end-line="54" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BinaryNode_test.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BinaryNode_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-120">
+              <caret line="161" column="0" lean-forward="true" selection-start-line="161" selection-start-column="0" selection-end-line="161" selection-end-column="0" />
+              <folding>
+                <element signature="e#15#31#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -75,9 +96,9 @@
         <option value="$PROJECT_DIR$/init.go" />
         <option value="$PROJECT_DIR$/Cached.go" />
         <option value="$PROJECT_DIR$/BinaryNode_test.go" />
+        <option value="$PROJECT_DIR$/BinaryNode.go" />
+        <option value="$PROJECT_DIR$/BinaryNode.go" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/BinaryNode.go" />
-        <option value="$PROJECT_DIR$/BinaryNode.go" />
       </list>
     </option>
   </component>
@@ -265,7 +286,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35382956" sideWeight="0.43697917" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35382956" sideWeight="0.5630208" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35382956" sideWeight="0.5630208" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -341,13 +362,13 @@
           <first_editor relative-caret-position="130">
             <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
             <folding>
-              <marker date="1529552498790" expanded="true" signature="115:167" ph="..." />
-              <marker date="1529552498790" expanded="true" signature="210:362" ph="{...}" />
-              <marker date="1529552498790" expanded="true" signature="375:1559" ph="{...}" />
-              <marker date="1529552498790" expanded="true" signature="746:786" ph="/.../" />
-              <marker date="1529552498790" expanded="true" signature="746:860" ph="/.../" />
-              <marker date="1529552498790" expanded="true" signature="917:1015" ph="/.../" />
-              <marker date="1529552498790" expanded="true" signature="1058:1178" ph="/.../" />
+              <marker date="1529553255706" expanded="true" signature="227:279" ph="..." />
+              <marker date="1529553255706" expanded="true" signature="322:474" ph="{...}" />
+              <marker date="1529553255706" expanded="true" signature="487:2244" ph="{...}" />
+              <marker date="1529553255706" expanded="true" signature="858:898" ph="/.../" />
+              <marker date="1529553255706" expanded="true" signature="858:972" ph="/.../" />
+              <marker date="1529553255706" expanded="true" signature="1029:1127" ph="/.../" />
+              <marker date="1529553255706" expanded="true" signature="1170:1290" ph="/.../" />
             </folding>
           </first_editor>
           <second_editor />
@@ -448,13 +469,13 @@
           <first_editor relative-caret-position="130">
             <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
             <folding>
-              <marker date="1529552498790" expanded="true" signature="115:167" ph="..." />
-              <marker date="1529552498790" expanded="true" signature="210:362" ph="{...}" />
-              <marker date="1529552498790" expanded="true" signature="375:1559" ph="{...}" />
-              <marker date="1529552498790" expanded="true" signature="746:786" ph="/.../" />
-              <marker date="1529552498790" expanded="true" signature="746:860" ph="/.../" />
-              <marker date="1529552498790" expanded="true" signature="917:1015" ph="/.../" />
-              <marker date="1529552498790" expanded="true" signature="1058:1178" ph="/.../" />
+              <marker date="1529553255706" expanded="true" signature="227:279" ph="..." />
+              <marker date="1529553255706" expanded="true" signature="322:474" ph="{...}" />
+              <marker date="1529553255706" expanded="true" signature="487:2244" ph="{...}" />
+              <marker date="1529553255706" expanded="true" signature="858:898" ph="/.../" />
+              <marker date="1529553255706" expanded="true" signature="858:972" ph="/.../" />
+              <marker date="1529553255706" expanded="true" signature="1029:1127" ph="/.../" />
+              <marker date="1529553255706" expanded="true" signature="1170:1290" ph="/.../" />
             </folding>
           </first_editor>
           <second_editor />
@@ -649,24 +670,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cached.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1404">
-          <caret line="54" column="51" lean-forward="false" selection-start-line="54" selection-start-column="50" selection-end-line="54" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BinaryNode_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3640">
-          <caret line="140" column="1" lean-forward="true" selection-start-line="140" selection-start-column="1" selection-end-line="140" selection-end-column="1" />
-          <folding>
-            <element signature="e#15#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/btInterface.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
@@ -675,32 +678,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="364">
-            <caret line="59" column="34" lean-forward="false" selection-start-line="59" selection-start-column="34" selection-end-line="59" selection-end-column="34" />
-            <folding>
-              <marker date="1529552498790" expanded="true" signature="115:167" ph="..." />
-              <marker date="1529552498790" expanded="true" signature="210:362" ph="{...}" />
-              <marker date="1529552498790" expanded="true" signature="375:1559" ph="{...}" />
-              <marker date="1529552498790" expanded="true" signature="746:786" ph="/.../" />
-              <marker date="1529552498790" expanded="true" signature="746:860" ph="/.../" />
-              <marker date="1529552498790" expanded="true" signature="917:1015" ph="/.../" />
-              <marker date="1529552498790" expanded="true" signature="1058:1178" ph="/.../" />
-            </folding>
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/../github.com/fwhezfwhez/go-BinaryTree/BinaryNode.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="370" column="21" lean-forward="true" selection-start-line="370" selection-start-column="21" selection-end-line="370" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cached.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="54" column="51" lean-forward="false" selection-start-line="54" selection-start-column="50" selection-end-line="54" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BinaryNode_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-120">
+          <caret line="161" column="0" lean-forward="true" selection-start-line="161" selection-start-column="0" selection-end-line="161" selection-end-column="0" />
+          <folding>
+            <element signature="e#15#31#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BinaryNode.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="276" column="30" lean-forward="false" selection-start-line="276" selection-start-column="30" selection-end-line="276" selection-end-column="30" />
+        <state relative-caret-position="350">
+          <caret line="399" column="27" lean-forward="false" selection-start-line="399" selection-start-column="27" selection-end-line="399" selection-end-column="27" />
           <folding>
             <element signature="e#15#53#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="320">
+            <caret line="84" column="1" lean-forward="true" selection-start-line="84" selection-start-column="1" selection-end-line="84" selection-end-column="1" />
+            <folding>
+              <marker date="1529553255706" expanded="true" signature="227:279" ph="..." />
+              <marker date="1529553255706" expanded="true" signature="322:474" ph="{...}" />
+              <marker date="1529553255706" expanded="true" signature="487:2244" ph="{...}" />
+              <marker date="1529553255706" expanded="true" signature="858:898" ph="/.../" />
+              <marker date="1529553255706" expanded="true" signature="858:972" ph="/.../" />
+              <marker date="1529553255706" expanded="true" signature="1029:1127" ph="/.../" />
+              <marker date="1529553255706" expanded="true" signature="1170:1290" ph="/.../" />
+            </folding>
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

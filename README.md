@@ -1,5 +1,7 @@
 BTree realization in go
 
+**if you find any bug or want to add new requirement,call me at 1728565484@qq.com,or submit your issur above**
+
 **start**
 
 go get github.com/fwhezfwhez/go-BinaryTree
@@ -58,5 +60,27 @@ func main() {
 	
 	//11.Get the node num of a bt
 	fmt.Println(node.GetNodesNumEscapingArgs())
+	
+	//12.Get bt's max height and the height of a specific node
+	fmt.Println(node.GetMaxHeight())
+	fmt.Println(node.GetNodeHeight(node2))
+	
+	//13.Transfer a bt to an array asc or desc
+	fmt.Println(node.ToAscArrayEscapingArgs())
+	fmt.Println(node.ToDescArrayEscapingArgs())
+	
+	//14.Find a node' root
+	fmt.Println(node2.FindRoot())
+	
+	//15.Cached a  bt
+	node.Cached()
+	rs :=node.MustGetCache() 
+	bt.SmartPrint(rs)
+	
+	//16. transfer a bt to an sortedDoubleWayLinkList
+	fmt.Println(node.ToDescLinkedList())
+	fmt.Println(node.ToAscLinkedList())
+	
+	//17...more functions building 
 }
 ```
