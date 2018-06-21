@@ -6,3 +6,4 @@ package BTree
 
 //3. All operations to a bt is operated on its root,in another word,you don't have to definite a struct Tree{[]*BinaryNode} and then definite api to this tree.You may just
 //do it like : root *BinaryNode,root.Contains(),root.Insert(),root.Remove()
+

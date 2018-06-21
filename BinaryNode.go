@@ -106,7 +106,6 @@ func (bt *BinaryNode) Insert(x interface{}) (*BinaryNode, error) {
 }
 
 //delete a node which's data is x,if several nodes' data are all x,only delete one of them
-//2 children incorrect
 func (bt *BinaryNode) Remove(x interface{}) (*BinaryNode, error) {
 	if bt == nil {
 		return nil, nil
@@ -287,7 +286,7 @@ func (bt *BinaryNode) GetMaxDistance() (int, error) {
 }
 
 //get a bt's node number
-func (bt *BinaryNode) GetNodesNum(sum *int) int {
+func (bt *BinaryNode) GetNodesNum(sum *int)  {
 	if bt != nil {
 		*sum += 1
 		if bt.Right != nil {

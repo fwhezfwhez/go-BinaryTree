@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="485ccf8a-7586-4843-a4dd-f8e6cd0c7cb1" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/Interface.go" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/BinaryNode.go" afterPath="$PROJECT_DIR$/BinaryNode.go" />
-      <change beforePath="$PROJECT_DIR$/BinaryNode_test.go" afterPath="$PROJECT_DIR$/BinaryNode_test.go" />
+      <change beforePath="$PROJECT_DIR$/doc.go" afterPath="$PROJECT_DIR$/doc.go" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,54 +16,66 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BinaryNode.go" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BinaryNode.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BinaryNode.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="855">
-              <caret line="140" column="13" lean-forward="true" selection-start-line="140" selection-start-column="13" selection-end-line="140" selection-end-column="13" />
+            <state relative-caret-position="1064">
+              <caret line="619" column="0" lean-forward="true" selection-start-line="619" selection-start-column="0" selection-end-line="619" selection-end-column="0" />
               <folding>
                 <element signature="e#15#53#0" expanded="true" />
+                <element signature="n#!!block;n#New#0" expanded="false" />
+                <element signature="n#!!block;n#NewWithParent#0" expanded="false" />
+                <element signature="n#!!block;n#NewWithLeft#0" expanded="false" />
+                <element signature="n#!!block;n#Contain#0" expanded="false" />
+                <element signature="n#!!block;n#FindMax#0" expanded="false" />
+                <element signature="n#!!block;n#FindMin#0" expanded="false" />
+                <element signature="n#!!block;n#Insert#0" expanded="false" />
+                <element signature="n#!!block;n#Remove#0" expanded="false" />
+                <element signature="n#!!block;n#GetDepth#0" expanded="false" />
+                <element signature="n#!!block;n#GetAncestor#0" expanded="false" />
+                <element signature="n#!!block;n#GetDistance#0" expanded="false" />
+                <element signature="n#!!block;n#GetMaxDepth#0" expanded="false" />
+                <element signature="n#!!block;n#GetMaxDistance#0" expanded="false" />
+                <element signature="n#!!block;n#GetNodesNum#0" expanded="false" />
+                <element signature="n#!!block;n#GetNodesNumEscapingArgs#0" expanded="false" />
+                <element signature="n#!!block;n#GetMaxHeight#0" expanded="false" />
+                <element signature="n#!!block;n#GetNodeHeight#0" expanded="false" />
+                <element signature="n#!!block;n#ToAscArray#0" expanded="false" />
+                <element signature="n#!!block;n#ToAscArrayEscapingArgs#0" expanded="false" />
+                <element signature="n#!!block;n#ToDescArray#0" expanded="false" />
+                <element signature="n#!!block;n#ToDescArrayEscapingArgs#0" expanded="false" />
+                <element signature="n#!!block;n#FindRoot#0" expanded="false" />
+                <element signature="n#!!block;n#Cached#0" expanded="false" />
+                <element signature="n#!!block;n#GetCache#0" expanded="false" />
+                <element signature="n#!!block;n#MustGetCache#0" expanded="false" />
+                <element signature="n#!!block;n#ToAscLinkedList#0" expanded="false" />
+                <element signature="n#!!block;n#ToDescLinkedList#0" expanded="false" />
+                <element signature="n#!!block;n#LeftRotate#0" expanded="false" />
+                <element signature="n#!!block;n#RightRotate#0" expanded="false" />
+                <element signature="n#!!block;n#Compare#0" expanded="false" />
+                <element signature="n#!!block;n#max#0" expanded="false" />
+                <element signature="n#!!block;n#SmartPrint#0" expanded="false" />
+                <element signature="n#!!block;n#IfZero#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="451">
-                <caret line="83" column="35" lean-forward="true" selection-start-line="83" selection-start-column="35" selection-end-line="83" selection-end-column="35" />
-                <folding>
-                  <marker date="1529553255706" expanded="true" signature="227:279" ph="..." />
-                  <marker date="1529553255706" expanded="true" signature="322:474" ph="{...}" />
-                  <marker date="1529553255706" expanded="true" signature="487:2244" ph="{...}" />
-                  <marker date="1529553255706" expanded="true" signature="858:898" ph="/.../" />
-                  <marker date="1529553255706" expanded="true" signature="858:972" ph="/.../" />
-                  <marker date="1529553255706" expanded="true" signature="1029:1127" ph="/.../" />
-                  <marker date="1529553255706" expanded="true" signature="1170:1290" ph="/.../" />
-                </folding>
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Cached.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Cached.go">
+      <file leaf-file-name="Interface.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Interface.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="439">
-              <caret line="54" column="51" lean-forward="false" selection-start-line="54" selection-start-column="50" selection-end-line="54" selection-end-column="51" />
+            <state relative-caret-position="246">
+              <caret line="27" column="13" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BinaryNode_test.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BinaryNode_test.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BinaryNode_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="162" column="17" lean-forward="false" selection-start-line="162" selection-start-column="17" selection-end-line="162" selection-end-column="17" />
+            <state relative-caret-position="420">
+              <caret line="164" column="1" lean-forward="true" selection-start-line="164" selection-start-column="1" selection-end-line="164" selection-end-column="1" />
               <folding>
                 <element signature="e#15#31#0" expanded="true" />
               </folding>
@@ -92,14 +106,15 @@
       <list>
         <option value="$PROJECT_DIR$/btInterface.go" />
         <option value="$PROJECT_DIR$/btInterface.go" />
-        <option value="$PROJECT_DIR$/doc.go" />
-        <option value="$PROJECT_DIR$/doc.go" />
         <option value="$PROJECT_DIR$/init.go" />
         <option value="$PROJECT_DIR$/Cached.go" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/BinaryNode.go" />
-        <option value="$PROJECT_DIR$/BinaryNode.go" />
         <option value="$PROJECT_DIR$/BinaryNode_test.go" />
+        <option value="$PROJECT_DIR$/BinaryNode.go" />
+        <option value="$PROJECT_DIR$/doc.go" />
+        <option value="$PROJECT_DIR$/doc.go" />
+        <option value="$PROJECT_DIR$/Interface.go" />
+        <option value="$PROJECT_DIR$/BinaryNode.go" />
       </list>
     </option>
   </component>
@@ -287,7 +302,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35382956" sideWeight="0.4453125" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35382956" sideWeight="0.5546875" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35382956" sideWeight="0.5546875" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -331,35 +346,29 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/BinaryNode.go</url>
-          <line>385</line>
+          <line>384</line>
           <option name="timeStamp" value="36" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/BinaryNode.go</url>
-          <line>365</line>
+          <line>364</line>
           <properties />
           <option name="timeStamp" value="40" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/BinaryNode.go</url>
-          <line>121</line>
+          <line>120</line>
           <properties />
           <option name="timeStamp" value="43" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/BinaryNode.go</url>
-          <line>143</line>
+          <line>142</line>
           <properties />
           <option name="timeStamp" value="45" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/BinaryNode_test.go</url>
-          <line>163</line>
-          <properties />
-          <option name="timeStamp" value="46" />
-        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="47" />
+      <option name="time" value="49" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -370,6 +379,39 @@
           <caret line="399" column="27" lean-forward="false" selection-start-line="399" selection-start-column="27" selection-end-line="399" selection-end-column="27" />
           <folding>
             <element signature="e#15#53#0" expanded="true" />
+            <element signature="n#!!block;n#New#0" expanded="false" />
+            <element signature="n#!!block;n#NewWithParent#0" expanded="false" />
+            <element signature="n#!!block;n#NewWithLeft#0" expanded="false" />
+            <element signature="n#!!block;n#Contain#0" expanded="false" />
+            <element signature="n#!!block;n#FindMax#0" expanded="false" />
+            <element signature="n#!!block;n#FindMin#0" expanded="false" />
+            <element signature="n#!!block;n#Insert#0" expanded="false" />
+            <element signature="n#!!block;n#Remove#0" expanded="false" />
+            <element signature="n#!!block;n#GetDepth#0" expanded="false" />
+            <element signature="n#!!block;n#GetAncestor#0" expanded="false" />
+            <element signature="n#!!block;n#GetDistance#0" expanded="false" />
+            <element signature="n#!!block;n#GetMaxDepth#0" expanded="false" />
+            <element signature="n#!!block;n#GetMaxDistance#0" expanded="false" />
+            <element signature="n#!!block;n#GetNodesNum#0" expanded="false" />
+            <element signature="n#!!block;n#GetNodesNumEscapingArgs#0" expanded="false" />
+            <element signature="n#!!block;n#GetMaxHeight#0" expanded="false" />
+            <element signature="n#!!block;n#GetNodeHeight#0" expanded="false" />
+            <element signature="n#!!block;n#ToAscArray#0" expanded="false" />
+            <element signature="n#!!block;n#ToAscArrayEscapingArgs#0" expanded="false" />
+            <element signature="n#!!block;n#ToDescArray#0" expanded="false" />
+            <element signature="n#!!block;n#ToDescArrayEscapingArgs#0" expanded="false" />
+            <element signature="n#!!block;n#FindRoot#0" expanded="false" />
+            <element signature="n#!!block;n#Cached#0" expanded="false" />
+            <element signature="n#!!block;n#GetCache#0" expanded="false" />
+            <element signature="n#!!block;n#MustGetCache#0" expanded="false" />
+            <element signature="n#!!block;n#ToAscLinkedList#0" expanded="false" />
+            <element signature="n#!!block;n#ToDescLinkedList#0" expanded="false" />
+            <element signature="n#!!block;n#LeftRotate#0" expanded="false" />
+            <element signature="n#!!block;n#RightRotate#0" expanded="false" />
+            <element signature="n#!!block;n#Compare#0" expanded="false" />
+            <element signature="n#!!block;n#max#0" expanded="false" />
+            <element signature="n#!!block;n#SmartPrint#0" expanded="false" />
+            <element signature="n#!!block;n#IfZero#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -471,6 +513,39 @@
           <caret line="270" column="5" lean-forward="false" selection-start-line="270" selection-start-column="5" selection-end-line="270" selection-end-column="5" />
           <folding>
             <element signature="e#15#53#0" expanded="true" />
+            <element signature="n#!!block;n#New#0" expanded="false" />
+            <element signature="n#!!block;n#NewWithParent#0" expanded="false" />
+            <element signature="n#!!block;n#NewWithLeft#0" expanded="false" />
+            <element signature="n#!!block;n#Contain#0" expanded="false" />
+            <element signature="n#!!block;n#FindMax#0" expanded="false" />
+            <element signature="n#!!block;n#FindMin#0" expanded="false" />
+            <element signature="n#!!block;n#Insert#0" expanded="false" />
+            <element signature="n#!!block;n#Remove#0" expanded="false" />
+            <element signature="n#!!block;n#GetDepth#0" expanded="false" />
+            <element signature="n#!!block;n#GetAncestor#0" expanded="false" />
+            <element signature="n#!!block;n#GetDistance#0" expanded="false" />
+            <element signature="n#!!block;n#GetMaxDepth#0" expanded="false" />
+            <element signature="n#!!block;n#GetMaxDistance#0" expanded="false" />
+            <element signature="n#!!block;n#GetNodesNum#0" expanded="false" />
+            <element signature="n#!!block;n#GetNodesNumEscapingArgs#0" expanded="false" />
+            <element signature="n#!!block;n#GetMaxHeight#0" expanded="false" />
+            <element signature="n#!!block;n#GetNodeHeight#0" expanded="false" />
+            <element signature="n#!!block;n#ToAscArray#0" expanded="false" />
+            <element signature="n#!!block;n#ToAscArrayEscapingArgs#0" expanded="false" />
+            <element signature="n#!!block;n#ToDescArray#0" expanded="false" />
+            <element signature="n#!!block;n#ToDescArrayEscapingArgs#0" expanded="false" />
+            <element signature="n#!!block;n#FindRoot#0" expanded="false" />
+            <element signature="n#!!block;n#Cached#0" expanded="false" />
+            <element signature="n#!!block;n#GetCache#0" expanded="false" />
+            <element signature="n#!!block;n#MustGetCache#0" expanded="false" />
+            <element signature="n#!!block;n#ToAscLinkedList#0" expanded="false" />
+            <element signature="n#!!block;n#ToDescLinkedList#0" expanded="false" />
+            <element signature="n#!!block;n#LeftRotate#0" expanded="false" />
+            <element signature="n#!!block;n#RightRotate#0" expanded="false" />
+            <element signature="n#!!block;n#Compare#0" expanded="false" />
+            <element signature="n#!!block;n#max#0" expanded="false" />
+            <element signature="n#!!block;n#SmartPrint#0" expanded="false" />
+            <element signature="n#!!block;n#IfZero#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -490,6 +565,39 @@
           <caret line="151" column="22" lean-forward="true" selection-start-line="151" selection-start-column="22" selection-end-line="151" selection-end-column="22" />
           <folding>
             <element signature="e#15#53#0" expanded="true" />
+            <element signature="n#!!block;n#New#0" expanded="false" />
+            <element signature="n#!!block;n#NewWithParent#0" expanded="false" />
+            <element signature="n#!!block;n#NewWithLeft#0" expanded="false" />
+            <element signature="n#!!block;n#Contain#0" expanded="false" />
+            <element signature="n#!!block;n#FindMax#0" expanded="false" />
+            <element signature="n#!!block;n#FindMin#0" expanded="false" />
+            <element signature="n#!!block;n#Insert#0" expanded="false" />
+            <element signature="n#!!block;n#Remove#0" expanded="false" />
+            <element signature="n#!!block;n#GetDepth#0" expanded="false" />
+            <element signature="n#!!block;n#GetAncestor#0" expanded="false" />
+            <element signature="n#!!block;n#GetDistance#0" expanded="false" />
+            <element signature="n#!!block;n#GetMaxDepth#0" expanded="false" />
+            <element signature="n#!!block;n#GetMaxDistance#0" expanded="false" />
+            <element signature="n#!!block;n#GetNodesNum#0" expanded="false" />
+            <element signature="n#!!block;n#GetNodesNumEscapingArgs#0" expanded="false" />
+            <element signature="n#!!block;n#GetMaxHeight#0" expanded="false" />
+            <element signature="n#!!block;n#GetNodeHeight#0" expanded="false" />
+            <element signature="n#!!block;n#ToAscArray#0" expanded="false" />
+            <element signature="n#!!block;n#ToAscArrayEscapingArgs#0" expanded="false" />
+            <element signature="n#!!block;n#ToDescArray#0" expanded="false" />
+            <element signature="n#!!block;n#ToDescArrayEscapingArgs#0" expanded="false" />
+            <element signature="n#!!block;n#FindRoot#0" expanded="false" />
+            <element signature="n#!!block;n#Cached#0" expanded="false" />
+            <element signature="n#!!block;n#GetCache#0" expanded="false" />
+            <element signature="n#!!block;n#MustGetCache#0" expanded="false" />
+            <element signature="n#!!block;n#ToAscLinkedList#0" expanded="false" />
+            <element signature="n#!!block;n#ToDescLinkedList#0" expanded="false" />
+            <element signature="n#!!block;n#LeftRotate#0" expanded="false" />
+            <element signature="n#!!block;n#RightRotate#0" expanded="false" />
+            <element signature="n#!!block;n#Compare#0" expanded="false" />
+            <element signature="n#!!block;n#max#0" expanded="false" />
+            <element signature="n#!!block;n#SmartPrint#0" expanded="false" />
+            <element signature="n#!!block;n#IfZero#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -553,6 +661,39 @@
           <caret line="173" column="0" lean-forward="true" selection-start-line="173" selection-start-column="0" selection-end-line="173" selection-end-column="0" />
           <folding>
             <element signature="e#15#53#0" expanded="true" />
+            <element signature="n#!!block;n#New#0" expanded="false" />
+            <element signature="n#!!block;n#NewWithParent#0" expanded="false" />
+            <element signature="n#!!block;n#NewWithLeft#0" expanded="false" />
+            <element signature="n#!!block;n#Contain#0" expanded="false" />
+            <element signature="n#!!block;n#FindMax#0" expanded="false" />
+            <element signature="n#!!block;n#FindMin#0" expanded="false" />
+            <element signature="n#!!block;n#Insert#0" expanded="false" />
+            <element signature="n#!!block;n#Remove#0" expanded="false" />
+            <element signature="n#!!block;n#GetDepth#0" expanded="false" />
+            <element signature="n#!!block;n#GetAncestor#0" expanded="false" />
+            <element signature="n#!!block;n#GetDistance#0" expanded="false" />
+            <element signature="n#!!block;n#GetMaxDepth#0" expanded="false" />
+            <element signature="n#!!block;n#GetMaxDistance#0" expanded="false" />
+            <element signature="n#!!block;n#GetNodesNum#0" expanded="false" />
+            <element signature="n#!!block;n#GetNodesNumEscapingArgs#0" expanded="false" />
+            <element signature="n#!!block;n#GetMaxHeight#0" expanded="false" />
+            <element signature="n#!!block;n#GetNodeHeight#0" expanded="false" />
+            <element signature="n#!!block;n#ToAscArray#0" expanded="false" />
+            <element signature="n#!!block;n#ToAscArrayEscapingArgs#0" expanded="false" />
+            <element signature="n#!!block;n#ToDescArray#0" expanded="false" />
+            <element signature="n#!!block;n#ToDescArrayEscapingArgs#0" expanded="false" />
+            <element signature="n#!!block;n#FindRoot#0" expanded="false" />
+            <element signature="n#!!block;n#Cached#0" expanded="false" />
+            <element signature="n#!!block;n#GetCache#0" expanded="false" />
+            <element signature="n#!!block;n#MustGetCache#0" expanded="false" />
+            <element signature="n#!!block;n#ToAscLinkedList#0" expanded="false" />
+            <element signature="n#!!block;n#ToDescLinkedList#0" expanded="false" />
+            <element signature="n#!!block;n#LeftRotate#0" expanded="false" />
+            <element signature="n#!!block;n#RightRotate#0" expanded="false" />
+            <element signature="n#!!block;n#Compare#0" expanded="false" />
+            <element signature="n#!!block;n#max#0" expanded="false" />
+            <element signature="n#!!block;n#SmartPrint#0" expanded="false" />
+            <element signature="n#!!block;n#IfZero#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -625,6 +766,39 @@
           <caret line="87" column="49" lean-forward="false" selection-start-line="87" selection-start-column="49" selection-end-line="87" selection-end-column="49" />
           <folding>
             <element signature="e#15#53#0" expanded="true" />
+            <element signature="n#!!block;n#New#0" expanded="false" />
+            <element signature="n#!!block;n#NewWithParent#0" expanded="false" />
+            <element signature="n#!!block;n#NewWithLeft#0" expanded="false" />
+            <element signature="n#!!block;n#Contain#0" expanded="false" />
+            <element signature="n#!!block;n#FindMax#0" expanded="false" />
+            <element signature="n#!!block;n#FindMin#0" expanded="false" />
+            <element signature="n#!!block;n#Insert#0" expanded="false" />
+            <element signature="n#!!block;n#Remove#0" expanded="false" />
+            <element signature="n#!!block;n#GetDepth#0" expanded="false" />
+            <element signature="n#!!block;n#GetAncestor#0" expanded="false" />
+            <element signature="n#!!block;n#GetDistance#0" expanded="false" />
+            <element signature="n#!!block;n#GetMaxDepth#0" expanded="false" />
+            <element signature="n#!!block;n#GetMaxDistance#0" expanded="false" />
+            <element signature="n#!!block;n#GetNodesNum#0" expanded="false" />
+            <element signature="n#!!block;n#GetNodesNumEscapingArgs#0" expanded="false" />
+            <element signature="n#!!block;n#GetMaxHeight#0" expanded="false" />
+            <element signature="n#!!block;n#GetNodeHeight#0" expanded="false" />
+            <element signature="n#!!block;n#ToAscArray#0" expanded="false" />
+            <element signature="n#!!block;n#ToAscArrayEscapingArgs#0" expanded="false" />
+            <element signature="n#!!block;n#ToDescArray#0" expanded="false" />
+            <element signature="n#!!block;n#ToDescArrayEscapingArgs#0" expanded="false" />
+            <element signature="n#!!block;n#FindRoot#0" expanded="false" />
+            <element signature="n#!!block;n#Cached#0" expanded="false" />
+            <element signature="n#!!block;n#GetCache#0" expanded="false" />
+            <element signature="n#!!block;n#MustGetCache#0" expanded="false" />
+            <element signature="n#!!block;n#ToAscLinkedList#0" expanded="false" />
+            <element signature="n#!!block;n#ToDescLinkedList#0" expanded="false" />
+            <element signature="n#!!block;n#LeftRotate#0" expanded="false" />
+            <element signature="n#!!block;n#RightRotate#0" expanded="false" />
+            <element signature="n#!!block;n#Compare#0" expanded="false" />
+            <element signature="n#!!block;n#max#0" expanded="false" />
+            <element signature="n#!!block;n#SmartPrint#0" expanded="false" />
+            <element signature="n#!!block;n#IfZero#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -644,6 +818,39 @@
           <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
           <folding>
             <element signature="e#15#53#0" expanded="true" />
+            <element signature="n#!!block;n#New#0" expanded="false" />
+            <element signature="n#!!block;n#NewWithParent#0" expanded="false" />
+            <element signature="n#!!block;n#NewWithLeft#0" expanded="false" />
+            <element signature="n#!!block;n#Contain#0" expanded="false" />
+            <element signature="n#!!block;n#FindMax#0" expanded="false" />
+            <element signature="n#!!block;n#FindMin#0" expanded="false" />
+            <element signature="n#!!block;n#Insert#0" expanded="false" />
+            <element signature="n#!!block;n#Remove#0" expanded="false" />
+            <element signature="n#!!block;n#GetDepth#0" expanded="false" />
+            <element signature="n#!!block;n#GetAncestor#0" expanded="false" />
+            <element signature="n#!!block;n#GetDistance#0" expanded="false" />
+            <element signature="n#!!block;n#GetMaxDepth#0" expanded="false" />
+            <element signature="n#!!block;n#GetMaxDistance#0" expanded="false" />
+            <element signature="n#!!block;n#GetNodesNum#0" expanded="false" />
+            <element signature="n#!!block;n#GetNodesNumEscapingArgs#0" expanded="false" />
+            <element signature="n#!!block;n#GetMaxHeight#0" expanded="false" />
+            <element signature="n#!!block;n#GetNodeHeight#0" expanded="false" />
+            <element signature="n#!!block;n#ToAscArray#0" expanded="false" />
+            <element signature="n#!!block;n#ToAscArrayEscapingArgs#0" expanded="false" />
+            <element signature="n#!!block;n#ToDescArray#0" expanded="false" />
+            <element signature="n#!!block;n#ToDescArrayEscapingArgs#0" expanded="false" />
+            <element signature="n#!!block;n#FindRoot#0" expanded="false" />
+            <element signature="n#!!block;n#Cached#0" expanded="false" />
+            <element signature="n#!!block;n#GetCache#0" expanded="false" />
+            <element signature="n#!!block;n#MustGetCache#0" expanded="false" />
+            <element signature="n#!!block;n#ToAscLinkedList#0" expanded="false" />
+            <element signature="n#!!block;n#ToDescLinkedList#0" expanded="false" />
+            <element signature="n#!!block;n#LeftRotate#0" expanded="false" />
+            <element signature="n#!!block;n#RightRotate#0" expanded="false" />
+            <element signature="n#!!block;n#Compare#0" expanded="false" />
+            <element signature="n#!!block;n#max#0" expanded="false" />
+            <element signature="n#!!block;n#SmartPrint#0" expanded="false" />
+            <element signature="n#!!block;n#IfZero#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -675,14 +882,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../github.com/fwhezfwhez/go-BinaryTree/btInterface.go" />
-    <entry file="file://$PROJECT_DIR$/doc.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="7" column="75" lean-forward="false" selection-start-line="7" selection-start-column="75" selection-end-line="7" selection-end-column="75" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://E:/go/src/reflect/value.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="263">
@@ -727,22 +926,71 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BinaryNode.go">
+    <entry file="file://$PROJECT_DIR$/doc.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="140" column="13" lean-forward="true" selection-start-line="140" selection-start-column="13" selection-end-line="140" selection-end-column="13" />
-          <folding>
-            <element signature="e#15#53#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="234">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Interface.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="27" column="13" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BinaryNode_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="162" column="17" lean-forward="false" selection-start-line="162" selection-start-column="17" selection-end-line="162" selection-end-column="17" />
+        <state relative-caret-position="420">
+          <caret line="164" column="1" lean-forward="true" selection-start-line="164" selection-start-column="1" selection-end-line="164" selection-end-column="1" />
           <folding>
             <element signature="e#15#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BinaryNode.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1064">
+          <caret line="619" column="0" lean-forward="true" selection-start-line="619" selection-start-column="0" selection-end-line="619" selection-end-column="0" />
+          <folding>
+            <element signature="e#15#53#0" expanded="true" />
+            <element signature="n#!!block;n#New#0" expanded="false" />
+            <element signature="n#!!block;n#NewWithParent#0" expanded="false" />
+            <element signature="n#!!block;n#NewWithLeft#0" expanded="false" />
+            <element signature="n#!!block;n#Contain#0" expanded="false" />
+            <element signature="n#!!block;n#FindMax#0" expanded="false" />
+            <element signature="n#!!block;n#FindMin#0" expanded="false" />
+            <element signature="n#!!block;n#Insert#0" expanded="false" />
+            <element signature="n#!!block;n#Remove#0" expanded="false" />
+            <element signature="n#!!block;n#GetDepth#0" expanded="false" />
+            <element signature="n#!!block;n#GetAncestor#0" expanded="false" />
+            <element signature="n#!!block;n#GetDistance#0" expanded="false" />
+            <element signature="n#!!block;n#GetMaxDepth#0" expanded="false" />
+            <element signature="n#!!block;n#GetMaxDistance#0" expanded="false" />
+            <element signature="n#!!block;n#GetNodesNum#0" expanded="false" />
+            <element signature="n#!!block;n#GetNodesNumEscapingArgs#0" expanded="false" />
+            <element signature="n#!!block;n#GetMaxHeight#0" expanded="false" />
+            <element signature="n#!!block;n#GetNodeHeight#0" expanded="false" />
+            <element signature="n#!!block;n#ToAscArray#0" expanded="false" />
+            <element signature="n#!!block;n#ToAscArrayEscapingArgs#0" expanded="false" />
+            <element signature="n#!!block;n#ToDescArray#0" expanded="false" />
+            <element signature="n#!!block;n#ToDescArrayEscapingArgs#0" expanded="false" />
+            <element signature="n#!!block;n#FindRoot#0" expanded="false" />
+            <element signature="n#!!block;n#Cached#0" expanded="false" />
+            <element signature="n#!!block;n#GetCache#0" expanded="false" />
+            <element signature="n#!!block;n#MustGetCache#0" expanded="false" />
+            <element signature="n#!!block;n#ToAscLinkedList#0" expanded="false" />
+            <element signature="n#!!block;n#ToDescLinkedList#0" expanded="false" />
+            <element signature="n#!!block;n#LeftRotate#0" expanded="false" />
+            <element signature="n#!!block;n#RightRotate#0" expanded="false" />
+            <element signature="n#!!block;n#Compare#0" expanded="false" />
+            <element signature="n#!!block;n#max#0" expanded="false" />
+            <element signature="n#!!block;n#SmartPrint#0" expanded="false" />
+            <element signature="n#!!block;n#IfZero#0" expanded="false" />
           </folding>
         </state>
       </provider>
