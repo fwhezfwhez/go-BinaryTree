@@ -57,6 +57,6 @@ func main() {
 	fmt.Println(node.GetMaxDistance())
 	
 	//11.Get the node num of a bt
-	fmt.Println(node.G)
+	fmt.Println(node.GetNodesNumEscapingArgs())
 }
 ```

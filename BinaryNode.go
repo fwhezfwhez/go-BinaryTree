@@ -28,6 +28,7 @@ type RedBlack struct {
 func New(data interface{}) *BinaryNode {
 	return &BinaryNode{data, nil, nil, nil}
 }
+
 //new a node with parent
 func NewWithParent(data interface{}, prt *BinaryNode) *BinaryNode {
 	return &BinaryNode{data, prt, nil, nil}
@@ -270,6 +271,12 @@ func (bt *BinaryNode) GetNodesNum(sum *int) int {
 	return *sum
 }
 
+//get a bt's node number escaping arg
+func (bt *BinaryNode) GetNodesNumEscapingArgs() int {
+	var sum int
+	return bt.GetNodesNum(&sum)
+}
+
 //get the maxHeight of a bt
 func (bt *BinaryNode) GetMaxHeight() int {
 	if bt == nil {
@@ -299,13 +306,13 @@ func (bt *BinaryNode) ToAscArray(rs *[]interface{}, flag *int) {
 }
 
 //transfer a bt to an array asc escaping args
-func (bt *BinaryNode) ToAscArrayEscapingArgs() []interface{}{
+func (bt *BinaryNode) ToAscArrayEscapingArgs() []interface{} {
 	var sum int
 	var rs []interface{}
 	var flag int
 	bt.GetNodesNum(&sum)
-	rs = make([]interface{},sum)
-	bt.ToAscArray(&rs,&flag)
+	rs = make([]interface{}, sum)
+	bt.ToAscArray(&rs, &flag)
 	return rs
 }
 
@@ -322,14 +329,15 @@ func (bt *BinaryNode) ToDescArray(rs *[]interface{}, flag *int) {
 		bt.Left.ToDescArray(rs, flag)
 	}
 }
+
 //transfer a bt to an array desc escaping args
-func (bt *BinaryNode) ToDescArrayEscapingArgs() []interface{}{
+func (bt *BinaryNode) ToDescArrayEscapingArgs() []interface{} {
 	var sum int
 	var rs []interface{}
 	var flag int
 	bt.GetNodesNum(&sum)
-	rs = make([]interface{},sum)
-	bt.ToDescArray(&rs,&flag)
+	rs = make([]interface{}, sum)
+	bt.ToDescArray(&rs, &flag)
 	return rs
 }
 
@@ -368,7 +376,7 @@ func (bt *BinaryNode) GetCache() (*BTreeCache, error) {
 
 //Get a bt's cache,if not existed,generate one then return it
 func (bt *BinaryNode) MustGetCache() *BTreeCache {
-	for k:= range Cache {
+	for k := range Cache {
 		if k == bt.FindRoot() {
 			return Cache[k]
 		}
