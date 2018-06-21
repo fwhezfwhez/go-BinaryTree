@@ -1,15 +1,17 @@
 package BTree
 
 import "testing"
-var node *BinaryNode
+var node,node2,node3,node4,node5,nodei *BinaryNode
 func Init(){
 	node=New(7)
-//	node2,_ =node.Insert(5)
-	node.Insert(9)
-	node.Insert(11)
-	node.Insert(11)
+	node2,_ =node.Insert(5)
+	node3,_ =node.Insert(9)
+	node4,_ =node.Insert(11)
+	node5,_ =node.Insert(11)
 	node.Insert(10)
 	node.Insert(8)
+	nodei,_=node.Insert(1)
+	node.Insert(6)
 	//node2=New(5)
 	//node3=New(9)
 	//node4=New(11)
@@ -69,7 +71,7 @@ func TestGetAncestor(t *testing.T) {
 }
 func TestBinaryNode_GetDepth(t *testing.T) {
 	Init()
-	t.Log(node.GetDepth(New(8)))
+	t.Log(node.GetDepth(node4))
 }
 
 func TestBinaryNode_GetDistance(t *testing.T) {
@@ -87,4 +89,82 @@ func TestBinaryNode_GetMaxDistance(t *testing.T) {
 }
 func TestMmax(t *testing.T){
 	t.Log(max(6,3,4))
+}
+
+func TestNodeNum(t *testing.T){
+	Init()
+	var sum int
+	t.Log(node.GetNodesNum(&sum))
+}
+
+func TestMaxHeight(t *testing.T){
+	Init()
+	t.Log(node.GetMaxHeight())
+	t.Log(nodei.Right)
+}
+
+func TestBinaryNode_GetNodeHeight(t *testing.T) {
+	Init()
+	t.Log(node.GetNodeHeight(node3))
+}
+
+func TestToSortLinkedListStruct(t *testing.T) {
+	Init()
+	rs,er:=node.ToAscLinkedList()
+	if er!=nil {
+		t.Fatal(er)
+	}
+
+	for ;;{
+		t.Log(rs.Start.Data)
+		rs.Start = rs.Start.Right
+		if rs.Start ==nil{
+			break
+		}
+	}
+}
+
+func TestBinaryNode_ToDescLinkedList(t *testing.T) {
+	Init()
+	rs,er:=node.ToDescLinkedList()
+	if er!=nil {
+		t.Fatal(er)
+	}
+
+	for ;;{
+		t.Log(rs.Start.Data)
+		rs.Start = rs.Start.Right
+		if rs.Start ==nil{
+			break
+		}
+	}
+}
+
+func TestBinaryNode_ToAscArray(t *testing.T) {
+	Init()
+	var sum = 0
+	var rs = make([]interface{},node.GetNodesNum(&sum))
+	var tmp =0
+	node.ToAscArray(&rs,&tmp)
+	t.Log(rs)
+	t.Log(tmp)
+}
+
+func TestBinaryNode_ToDescArray(t *testing.T) {
+	Init()
+	var sum = 0
+	var rs = make([]interface{},node.GetNodesNum(&sum))
+	var tmp =0
+	node.ToDescArray(&rs,&tmp)
+	t.Log(rs)
+	t.Log(tmp)
+}
+
+func TestSmartPrint(t *testing.T) {
+	type User struct {
+		Name string
+		Id int
+		P string
+	}
+	SmartPrint(User{"ft",5,""})
 }

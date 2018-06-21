@@ -3,6 +3,7 @@ package BTree
 import (
 	"reflect"
 	"errors"
+	"fmt"
 )
 
 type BinaryNode struct {
@@ -12,12 +13,15 @@ type BinaryNode struct {
 	Right  *BinaryNode
 }
 
+type SortedLinkedList struct {
+	Start *BinaryNode
+}
 type AVL struct {
-	root *BinaryNode
+	Root *BinaryNode
 }
 
 type RedBlack struct {
-	root *BinaryNode
+	Root *BinaryNode
 }
 
 //new a node
@@ -28,6 +32,9 @@ func NewWithParent(data interface{}, prt *BinaryNode) *BinaryNode {
 	return &BinaryNode{data, prt, nil, nil}
 }
 
+func NewWithLeft(data interface{},left *BinaryNode)*BinaryNode{
+	return &BinaryNode{data,nil,left,nil}
+}
 //if a bt contains data
 func (bt *BinaryNode) Contain(data interface{}) (bool, error) {
 	if data == nil {
@@ -183,33 +190,34 @@ func (bt *BinaryNode) GetDistance(node1, node2 *BinaryNode) (int, error) {
 }
 
 //get max depth of a bt, returns maxDepth,leftMaxDepth,rightMaxDepth,error
-func (bt *BinaryNode) GetMaxDepth() (int,int,int,error) {
+func (bt *BinaryNode) GetMaxDepth() (int, int, int, error) {
 	if bt == nil {
-		return 0,0,0, nil
+		return 0, 0, 0, nil
 	}
 	var leftMax, rightMax int
 	var er error
 	if bt.Left != nil {
-		leftMax,_,_, er = bt.Left.GetMaxDepth()
+		leftMax, _, _, er = bt.Left.GetMaxDepth()
 		if er != nil {
-			return -1,-1,-1, er
+			return -1, -1, -1, er
 		}
 		leftMax++
 	}
 	if bt.Right != nil {
-		rightMax,_,_, er = bt.Right.GetMaxDepth()
+		rightMax, _, _, er = bt.Right.GetMaxDepth()
 		if er != nil {
-			return -1,-1,-1, er
+			return -1, -1, -1, er
 		}
 		rightMax++
 	}
 	if leftMax > rightMax {
-		return leftMax,leftMax,rightMax, nil
+		return leftMax, leftMax, rightMax, nil
 	}
-	return rightMax,leftMax,rightMax, nil
+	return rightMax, leftMax, rightMax, nil
 
 }
 
+//get max two node distance of a bt
 func (bt *BinaryNode) GetMaxDistance() (int, error) {
 	if bt == nil {
 		return 0, nil
@@ -220,13 +228,13 @@ func (bt *BinaryNode) GetMaxDistance() (int, error) {
 	var rMax2 = 0
 	var er error
 
-	_,lMax1,rMax1,er=bt.GetMaxDepth()
+	_, lMax1, rMax1, er = bt.GetMaxDepth()
 	if bt.Left != nil {
 		lMax2, er = bt.Left.GetMaxDistance()
 		if er != nil {
 			return -1, er
 		}
-		if bt.Right!=nil{
+		if bt.Right != nil {
 			lMax2++
 		}
 	}
@@ -236,11 +244,69 @@ func (bt *BinaryNode) GetMaxDistance() (int, error) {
 		if er != nil {
 			return -1, er
 		}
-		if bt.Left!=nil{
+		if bt.Left != nil {
 			rMax2++
 		}
 	}
-	return max((lMax1+rMax1), lMax2, rMax2), nil
+	return max((lMax1 + rMax1), lMax2, rMax2), nil
+}
+
+//get a bt's node number
+func (bt *BinaryNode) GetNodesNum(sum *int)int{
+	if bt!=nil{
+		*sum+=1
+		if bt.Right!=nil{
+			bt.Right.GetNodesNum(sum)
+		}
+		if bt.Left!=nil{
+			bt.Left.GetNodesNum(sum)
+		}
+	}else{
+		return 0
+	}
+	return *sum
+}
+
+//get the maxHeight of a bt
+func (bt *BinaryNode) GetMaxHeight() int{
+	if bt==nil{
+		return 0
+	}
+	tmp,_,_,_:=bt.GetMaxDepth()
+	return tmp
+}
+
+//get a node's height
+func (bt *BinaryNode) GetNodeHeight(node *BinaryNode)int{
+	total,_,_,_:=bt.GetMaxDepth()
+	tmp,_:=bt.GetDepth(node)
+	return total-tmp
+}
+
+//transfer a bt to a array asc sorted
+func (bt *BinaryNode) ToAscArray(rs *[]interface{},flag *int){
+
+	if bt.Left!=nil {
+		bt.Left.ToAscArray(rs,flag)
+	}
+	(*rs)[*flag] = bt.Data
+	*flag++
+	if bt.Right!=nil{
+		bt.Right.ToAscArray(rs,flag)
+	}
+}
+
+func (bt *BinaryNode) ToDescArray(rs *[]interface{},flag *int){
+	if bt.Right!=nil{
+		bt.Right.ToDescArray(rs,flag)
+	}
+
+	(*rs)[*flag] = bt.Data
+	*flag++
+
+	if bt.Left!=nil {
+		bt.Left.ToDescArray(rs,flag)
+	}
 }
 
 //transfer a bt to a redBlack pattern
@@ -255,6 +321,51 @@ func ToAVL() (*BinaryNode, error) {
 	return nil, nil
 }
 
+
+
+
+
+//transfer a bt to a linked list order asc
+func (bt *BinaryNode) ToAscLinkedList() (*SortedLinkedList, error) {
+	var sum int
+	bt.GetNodesNum(&sum)
+	var rs = make([]interface{},sum)
+	var flag = 0
+	bt.ToAscArray(&rs,&flag)
+
+	head := New(rs[0])
+	tail := head
+	var tmp *BinaryNode
+	for i:=1;i<len(rs);i++{
+		tmp = New(rs[i])
+		tail.Right = tmp
+		tmp.Left =tail
+		tail = tmp
+	}
+	fmt.Println(len(rs))
+	return &SortedLinkedList{head},nil
+}
+
+//transfer a bt to a LinkedList desc
+func (bt *BinaryNode) ToDescLinkedList() (*SortedLinkedList, error) {
+	var sum int
+	bt.GetNodesNum(&sum)
+	var rs = make([]interface{},sum)
+	var flag = 0
+	bt.ToDescArray(&rs,&flag)
+
+	head := New(rs[0])
+	tail := head
+	var tmp *BinaryNode
+	for i:=1;i<len(rs);i++{
+		tmp = New(rs[i])
+		tail.Right = tmp
+		tmp.Left =tail
+		tail = tmp
+	}
+	fmt.Println(len(rs))
+	return &SortedLinkedList{head},nil
+}
 //rotate left
 func (av *RedBlack) LeftRotate() (*AVL, error) {
 	return nil, nil
@@ -366,4 +477,43 @@ func max(args ... int) int {
 		}
 	}
 	return maxTmp
+}
+
+func SmartPrint(i interface{}){
+	var kv = make(map[string]interface{})
+	vValue := reflect.ValueOf(i)
+	vType :=reflect.TypeOf(i)
+	for i:=0;i<vValue.NumField();i++{
+		kv[vType.Field(i).Name] = vValue.Field(i)
+	}
+	fmt.Println("获取到数据:")
+	for k,v :=range kv{
+		fmt.Print(k)
+		fmt.Print(":")
+		fmt.Print(v)
+		fmt.Println()
+	}
+}
+
+func IfZero(arg interface{}) bool {
+	if arg==nil{
+		return true
+	}
+	switch v := arg.(type) {
+	case int, float64, int32, int16, int64, float32:
+		if v == 0 {
+			return true
+		}
+	case string:
+		if v == "" || v == "%%" ||v=="%"{
+			return true
+		}
+	case *string, *int, *int64, *int32, *int16, *int8, *float32, *float64:
+		if v==nil {
+			return true
+		}
+	default:
+		return false
+	}
+	return false
 }
