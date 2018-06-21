@@ -106,6 +106,7 @@ func (bt *BinaryNode) Insert(x interface{}) (*BinaryNode, error) {
 }
 
 //delete a node which's data is x,if several nodes' data are all x,only delete one of them
+//2 children incorrect
 func (bt *BinaryNode) Remove(x interface{}) (*BinaryNode, error) {
 	if bt == nil {
 		return nil, nil
@@ -126,7 +127,37 @@ func (bt *BinaryNode) Remove(x interface{}) (*BinaryNode, error) {
 		}
 	} else if bt.Left != nil && bt.Right != nil {
 		tmp, _ := bt.Right.FindMin()
-		bt.Right, _ = bt.Right.Remove(tmp.Data)
+		bt.Right.Remove(tmp.Data)
+		if bt.Parant.Right ==bt && bt.Parant!=nil{
+			bt.Parant.Right = tmp
+			tmp.Parant = bt.Parant
+
+			tmp.Left = bt.Left
+			bt.Left.Parant = tmp
+
+			if bt.Right!= tmp{
+				tmp.Right = bt.Right
+				bt.Right.Parant = tmp
+			}
+			return tmp,nil
+		}else if bt.Parant.Left ==bt && bt.Parant!=nil{
+			bt.Parant.Left = tmp
+			tmp.Parant = bt.Parant
+
+			tmp.Left = bt.Left
+			bt.Left.Parant = tmp
+
+			if bt.Right!= tmp{
+				tmp.Right = bt.Right
+				bt.Right.Parant = tmp
+			}
+			return tmp,nil
+		}
+
+
+
+
+		//bt.Right, _ = bt.Right.Remove(tmp.Data)
 	} else {
 		if bt.Left != nil {
 			bt = bt.Left

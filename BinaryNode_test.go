@@ -12,6 +12,8 @@ func Init(){
 	node.Insert(8)
 	nodei,_=node.Insert(1)
 	node.Insert(6)
+	node.Insert(0)
+	node.Insert(3)
 	//node2=New(5)
 	//node3=New(9)
 	//node4=New(11)
@@ -152,11 +154,13 @@ func TestBinaryNode_ToAscArray(t *testing.T) {
 
 func TestBinaryNode_ToAscArrayEscapingArgs(t *testing.T) {
 	Init()
+	node.Remove(5)
 	t.Log(node.ToAscArrayEscapingArgs())
 }
 
 func TestBinaryNode_ToDescArrayEscapingArgs(t *testing.T) {
 	Init()
+	node.Remove(9)
 	t.Log(node.ToDescArrayEscapingArgs())
 }
 
