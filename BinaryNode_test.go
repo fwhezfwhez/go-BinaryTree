@@ -150,6 +150,16 @@ func TestBinaryNode_ToAscArray(t *testing.T) {
 	t.Log(tmp)
 }
 
+func TestBinaryNode_ToAscArrayEscapingArgs(t *testing.T) {
+	Init()
+	t.Log(node.ToAscArrayEscapingArgs())
+}
+
+func TestBinaryNode_ToDescArrayEscapingArgs(t *testing.T) {
+	Init()
+	t.Log(node.ToDescArrayEscapingArgs())
+}
+
 func TestBinaryNode_ToDescArray(t *testing.T) {
 	Init()
 	var sum = 0
@@ -160,6 +170,11 @@ func TestBinaryNode_ToDescArray(t *testing.T) {
 	t.Log(tmp)
 }
 
+func TestBinaryNode_FindRoot(t *testing.T) {
+	Init()
+	t.Log(node3.FindRoot())
+}
+
 func TestSmartPrint(t *testing.T) {
 	type User struct {
 		Name string
@@ -167,4 +182,14 @@ func TestSmartPrint(t *testing.T) {
 		P string
 	}
 	SmartPrint(User{"ft",5,""})
+}
+
+func TestBinaryNode_Cached(t *testing.T) {
+	Init()
+	node.Cached()
+	rs,er:=node.GetCache()
+	if er!=nil {
+		t.Fatal(er.Error())
+	}
+	SmartPrint(*rs)
 }

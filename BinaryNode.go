@@ -28,13 +28,16 @@ type RedBlack struct {
 func New(data interface{}) *BinaryNode {
 	return &BinaryNode{data, nil, nil, nil}
 }
+//new a node with parent
 func NewWithParent(data interface{}, prt *BinaryNode) *BinaryNode {
 	return &BinaryNode{data, prt, nil, nil}
 }
 
-func NewWithLeft(data interface{},left *BinaryNode)*BinaryNode{
-	return &BinaryNode{data,nil,left,nil}
+//new a node with left child
+func NewWithLeft(data interface{}, left *BinaryNode) *BinaryNode {
+	return &BinaryNode{data, nil, left, nil}
 }
+
 //if a bt contains data
 func (bt *BinaryNode) Contain(data interface{}) (bool, error) {
 	if data == nil {
@@ -252,61 +255,125 @@ func (bt *BinaryNode) GetMaxDistance() (int, error) {
 }
 
 //get a bt's node number
-func (bt *BinaryNode) GetNodesNum(sum *int)int{
-	if bt!=nil{
-		*sum+=1
-		if bt.Right!=nil{
+func (bt *BinaryNode) GetNodesNum(sum *int) int {
+	if bt != nil {
+		*sum += 1
+		if bt.Right != nil {
 			bt.Right.GetNodesNum(sum)
 		}
-		if bt.Left!=nil{
+		if bt.Left != nil {
 			bt.Left.GetNodesNum(sum)
 		}
-	}else{
+	} else {
 		return 0
 	}
 	return *sum
 }
 
 //get the maxHeight of a bt
-func (bt *BinaryNode) GetMaxHeight() int{
-	if bt==nil{
+func (bt *BinaryNode) GetMaxHeight() int {
+	if bt == nil {
 		return 0
 	}
-	tmp,_,_,_:=bt.GetMaxDepth()
+	tmp, _, _, _ := bt.GetMaxDepth()
 	return tmp
 }
 
 //get a node's height
-func (bt *BinaryNode) GetNodeHeight(node *BinaryNode)int{
-	total,_,_,_:=bt.GetMaxDepth()
-	tmp,_:=bt.GetDepth(node)
-	return total-tmp
+func (bt *BinaryNode) GetNodeHeight(node *BinaryNode) int {
+	total, _, _, _ := bt.GetMaxDepth()
+	tmp, _ := bt.GetDepth(node)
+	return total - tmp
 }
 
 //transfer a bt to a array asc sorted
-func (bt *BinaryNode) ToAscArray(rs *[]interface{},flag *int){
-
-	if bt.Left!=nil {
-		bt.Left.ToAscArray(rs,flag)
+func (bt *BinaryNode) ToAscArray(rs *[]interface{}, flag *int) {
+	if bt.Left != nil {
+		bt.Left.ToAscArray(rs, flag)
 	}
 	(*rs)[*flag] = bt.Data
 	*flag++
-	if bt.Right!=nil{
-		bt.Right.ToAscArray(rs,flag)
+	if bt.Right != nil {
+		bt.Right.ToAscArray(rs, flag)
 	}
 }
 
-func (bt *BinaryNode) ToDescArray(rs *[]interface{},flag *int){
-	if bt.Right!=nil{
-		bt.Right.ToDescArray(rs,flag)
+//transfer a bt to an array asc escaping args
+func (bt *BinaryNode) ToAscArrayEscapingArgs() []interface{}{
+	var sum int
+	var rs []interface{}
+	var flag int
+	bt.GetNodesNum(&sum)
+	rs = make([]interface{},sum)
+	bt.ToAscArray(&rs,&flag)
+	return rs
+}
+
+//transfer a bt to a array desc sorted
+func (bt *BinaryNode) ToDescArray(rs *[]interface{}, flag *int) {
+	if bt.Right != nil {
+		bt.Right.ToDescArray(rs, flag)
 	}
 
 	(*rs)[*flag] = bt.Data
 	*flag++
 
-	if bt.Left!=nil {
-		bt.Left.ToDescArray(rs,flag)
+	if bt.Left != nil {
+		bt.Left.ToDescArray(rs, flag)
 	}
+}
+//transfer a bt to an array desc escaping args
+func (bt *BinaryNode) ToDescArrayEscapingArgs() []interface{}{
+	var sum int
+	var rs []interface{}
+	var flag int
+	bt.GetNodesNum(&sum)
+	rs = make([]interface{},sum)
+	bt.ToDescArray(&rs,&flag)
+	return rs
+}
+
+//Assume got a node , find its root by this function
+func (bt *BinaryNode) FindRoot() *BinaryNode {
+	if bt.Parant != nil {
+		return bt.Parant.FindRoot()
+	} else {
+		return bt
+	}
+}
+
+//Cached a bt in global Cache
+func (bt *BinaryNode) Cached() *BTreeCache {
+	rootTmp := bt.FindRoot()
+	for k := range Cache {
+		if Cache[k].Root == bt.FindRoot() {
+			Cache[k].Refresh()
+			return Cache[k]
+		}
+	}
+	Cache[rootTmp] = &BTreeCache{Root: bt.FindRoot()}
+	Cache[rootTmp].Refresh()
+	return Cache[rootTmp]
+}
+
+//Get a bt's cache,if not existed,throws an error
+func (bt *BinaryNode) GetCache() (*BTreeCache, error) {
+	for k, _ := range Cache {
+		if k == bt.FindRoot() {
+			return Cache[k], nil
+		}
+	}
+	return nil, errors.New("this binary tree has not been cached yet,use bt.Cached() first,or use bt.MustGetCache()")
+}
+
+//Get a bt's cache,if not existed,generate one then return it
+func (bt *BinaryNode) MustGetCache() *BTreeCache {
+	for k:= range Cache {
+		if k == bt.FindRoot() {
+			return Cache[k]
+		}
+	}
+	return bt.Cached()
 }
 
 //transfer a bt to a redBlack pattern
@@ -321,51 +388,46 @@ func ToAVL() (*BinaryNode, error) {
 	return nil, nil
 }
 
-
-
-
-
 //transfer a bt to a linked list order asc
 func (bt *BinaryNode) ToAscLinkedList() (*SortedLinkedList, error) {
 	var sum int
 	bt.GetNodesNum(&sum)
-	var rs = make([]interface{},sum)
+	var rs = make([]interface{}, sum)
 	var flag = 0
-	bt.ToAscArray(&rs,&flag)
+	bt.ToAscArray(&rs, &flag)
 
 	head := New(rs[0])
 	tail := head
 	var tmp *BinaryNode
-	for i:=1;i<len(rs);i++{
+	for i := 1; i < len(rs); i++ {
 		tmp = New(rs[i])
 		tail.Right = tmp
-		tmp.Left =tail
+		tmp.Left = tail
 		tail = tmp
 	}
-	fmt.Println(len(rs))
-	return &SortedLinkedList{head},nil
+	return &SortedLinkedList{head}, nil
 }
 
 //transfer a bt to a LinkedList desc
 func (bt *BinaryNode) ToDescLinkedList() (*SortedLinkedList, error) {
 	var sum int
 	bt.GetNodesNum(&sum)
-	var rs = make([]interface{},sum)
+	var rs = make([]interface{}, sum)
 	var flag = 0
-	bt.ToDescArray(&rs,&flag)
+	bt.ToDescArray(&rs, &flag)
 
 	head := New(rs[0])
 	tail := head
 	var tmp *BinaryNode
-	for i:=1;i<len(rs);i++{
+	for i := 1; i < len(rs); i++ {
 		tmp = New(rs[i])
 		tail.Right = tmp
-		tmp.Left =tail
+		tmp.Left = tail
 		tail = tmp
 	}
-	fmt.Println(len(rs))
-	return &SortedLinkedList{head},nil
+	return &SortedLinkedList{head}, nil
 }
+
 //rotate left
 func (av *RedBlack) LeftRotate() (*AVL, error) {
 	return nil, nil
@@ -479,15 +541,15 @@ func max(args ... int) int {
 	return maxTmp
 }
 
-func SmartPrint(i interface{}){
+func SmartPrint(i interface{}) {
 	var kv = make(map[string]interface{})
 	vValue := reflect.ValueOf(i)
-	vType :=reflect.TypeOf(i)
-	for i:=0;i<vValue.NumField();i++{
+	vType := reflect.TypeOf(i)
+	for i := 0; i < vValue.NumField(); i++ {
 		kv[vType.Field(i).Name] = vValue.Field(i)
 	}
 	fmt.Println("获取到数据:")
-	for k,v :=range kv{
+	for k, v := range kv {
 		fmt.Print(k)
 		fmt.Print(":")
 		fmt.Print(v)
@@ -496,7 +558,7 @@ func SmartPrint(i interface{}){
 }
 
 func IfZero(arg interface{}) bool {
-	if arg==nil{
+	if arg == nil {
 		return true
 	}
 	switch v := arg.(type) {
@@ -505,11 +567,11 @@ func IfZero(arg interface{}) bool {
 			return true
 		}
 	case string:
-		if v == "" || v == "%%" ||v=="%"{
+		if v == "" || v == "%%" || v == "%" {
 			return true
 		}
 	case *string, *int, *int64, *int32, *int16, *int8, *float32, *float64:
-		if v==nil {
+		if v == nil {
 			return true
 		}
 	default:

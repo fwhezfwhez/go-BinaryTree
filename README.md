@@ -55,5 +55,8 @@ func main() {
 	
 	//10.Get the max distance of two leaves of a b tree
 	fmt.Println(node.GetMaxDistance())
+	
+	//11.Get the node num of a bt
+	fmt.Println(node.G)
 }
 ```

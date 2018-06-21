@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="485ccf8a-7586-4843-a4dd-f8e6cd0c7cb1" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/Cached.go" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/BinaryNode.go" afterPath="$PROJECT_DIR$/BinaryNode.go" />
       <change beforePath="$PROJECT_DIR$/BinaryNode_test.go" afterPath="$PROJECT_DIR$/BinaryNode_test.go" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="$PROJECT_DIR$/btInterface.go" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,42 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="doc.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/doc.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="7" column="75" lean-forward="false" selection-start-line="7" selection-start-column="75" selection-end-line="7" selection-end-column="75" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="130">
-                <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-                <folding>
-                  <marker date="1529401978217" expanded="true" signature="115:167" ph="..." />
-                  <marker date="1529401978217" expanded="true" signature="210:362" ph="{...}" />
-                  <marker date="1529401978217" expanded="true" signature="375:1481" ph="{...}" />
-                  <marker date="1529401978217" expanded="true" signature="746:786" ph="/.../" />
-                  <marker date="1529401978217" expanded="true" signature="746:860" ph="/.../" />
-                  <marker date="1529401978217" expanded="true" signature="917:1015" ph="/.../" />
-                  <marker date="1529401978217" expanded="true" signature="1058:1178" ph="/.../" />
-                </folding>
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BinaryNode.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BinaryNode.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BinaryNode.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="467" column="1" lean-forward="true" selection-start-line="467" selection-start-column="1" selection-end-line="467" selection-end-column="1" />
+            <state relative-caret-position="182">
+              <caret line="257" column="29" lean-forward="false" selection-start-line="257" selection-start-column="29" selection-end-line="257" selection-end-column="29" />
               <folding>
                 <element signature="e#15#53#0" expanded="true" />
               </folding>
@@ -58,34 +30,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BinaryNode_test.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BinaryNode_test.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="168" column="10" lean-forward="true" selection-start-line="168" selection-start-column="10" selection-end-line="168" selection-end-column="10" />
-              <folding>
-                <element signature="e#15#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="testing.go" pinned="false" current-in-tab="false">
-        <entry file="file://E:/go/src/testing/testing.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="439">
-              <caret line="727" column="0" lean-forward="false" selection-start-line="727" selection-start-column="0" selection-end-line="727" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="panic.go" pinned="false" current-in-tab="false">
-        <entry file="file://E:/go/src/runtime/panic.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="504" column="0" lean-forward="false" selection-start-line="504" selection-start-column="0" selection-end-line="504" selection-end-column="0" />
-              <folding />
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="364">
+                <caret line="59" column="15" lean-forward="false" selection-start-line="59" selection-start-column="15" selection-end-line="59" selection-end-column="15" />
+                <folding>
+                  <marker date="1529552253707" expanded="true" signature="115:167" ph="..." />
+                  <marker date="1529552253707" expanded="true" signature="210:362" ph="{...}" />
+                  <marker date="1529552253707" expanded="true" signature="375:1535" ph="{...}" />
+                  <marker date="1529552253707" expanded="true" signature="746:786" ph="/.../" />
+                  <marker date="1529552253707" expanded="true" signature="746:860" ph="/.../" />
+                  <marker date="1529552253707" expanded="true" signature="917:1015" ph="/.../" />
+                  <marker date="1529552253707" expanded="true" signature="1058:1178" ph="/.../" />
+                </folding>
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -99,6 +60,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>fmt</find>
+    </findStrings>
+  </component>
   <component name="GOROOT" path="E:\Go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -110,10 +76,12 @@
         <option value="$PROJECT_DIR$/btInterface.go" />
         <option value="$PROJECT_DIR$/doc.go" />
         <option value="$PROJECT_DIR$/doc.go" />
-        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/init.go" />
+        <option value="$PROJECT_DIR$/Cached.go" />
         <option value="$PROJECT_DIR$/BinaryNode_test.go" />
         <option value="$PROJECT_DIR$/BinaryNode.go" />
         <option value="$PROJECT_DIR$/BinaryNode.go" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -177,7 +145,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestSmartPrint in BinaryNode_test.go">
+  <component name="RunManager" selected="Go Test.TestBinaryNode_ToDescArrayEscapingArgs in BinaryNode_test.go">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="BinaryNode" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -187,32 +155,41 @@
       <package value="BinaryNode" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
-    <configuration name="TestBinaryNode_ToAscArray in BinaryNode_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+    <configuration name="TestBinaryNode_Cached in BinaryNode_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
       <module name="go-BinaryNode" />
       <working_directory value="$PROJECT_DIR$" />
       <go_parameters value="-i" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
       <package value="BTree" />
-      <pattern value="^TestBinaryNode_ToAscArray$" />
+      <pattern value="^TestBinaryNode_Cached$" />
     </configuration>
-    <configuration name="TestBinaryNode_ToDescArray in BinaryNode_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+    <configuration name="TestBinaryNode_FindRoot in BinaryNode_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
       <module name="go-BinaryNode" />
       <working_directory value="$PROJECT_DIR$" />
       <go_parameters value="-i" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
       <package value="BTree" />
-      <pattern value="^TestBinaryNode_ToDescArray$" />
+      <pattern value="^TestBinaryNode_FindRoot$" />
     </configuration>
-    <configuration name="TestBinaryNode_ToDescLinkedList in BinaryNode_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+    <configuration name="TestBinaryNode_ToAscArrayEscapingArgs in BinaryNode_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
       <module name="go-BinaryNode" />
       <working_directory value="$PROJECT_DIR$" />
       <go_parameters value="-i" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
       <package value="BTree" />
-      <pattern value="^TestBinaryNode_ToDescLinkedList$" />
+      <pattern value="^TestBinaryNode_ToAscArrayEscapingArgs$" />
+    </configuration>
+    <configuration name="TestBinaryNode_ToDescArrayEscapingArgs in BinaryNode_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+      <module name="go-BinaryNode" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="BTree" />
+      <pattern value="^TestBinaryNode_ToDescArrayEscapingArgs$" />
     </configuration>
     <configuration name="TestSmartPrint in BinaryNode_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
       <module name="go-BinaryNode" />
@@ -223,15 +200,6 @@
       <package value="BTree" />
       <pattern value="^TestSmartPrint$" />
     </configuration>
-    <configuration name="TestToSortLinkedListStruct in BinaryNode_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
-      <module name="go-BinaryNode" />
-      <working_directory value="$PROJECT_DIR$" />
-      <go_parameters value="-i" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="BTree" />
-      <pattern value="^TestToSortLinkedListStruct$" />
-    </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
       <module name="BinaryNode" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -241,19 +209,19 @@
       <package value="BinaryNode" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Go Test.TestToSortLinkedListStruct in BinaryNode_test.go" />
-      <item index="1" class="java.lang.String" itemvalue="Go Test.TestBinaryNode_ToAscArray in BinaryNode_test.go" />
-      <item index="2" class="java.lang.String" itemvalue="Go Test.TestBinaryNode_ToDescArray in BinaryNode_test.go" />
-      <item index="3" class="java.lang.String" itemvalue="Go Test.TestBinaryNode_ToDescLinkedList in BinaryNode_test.go" />
-      <item index="4" class="java.lang.String" itemvalue="Go Test.TestSmartPrint in BinaryNode_test.go" />
+      <item index="0" class="java.lang.String" itemvalue="Go Test.TestSmartPrint in BinaryNode_test.go" />
+      <item index="1" class="java.lang.String" itemvalue="Go Test.TestBinaryNode_FindRoot in BinaryNode_test.go" />
+      <item index="2" class="java.lang.String" itemvalue="Go Test.TestBinaryNode_Cached in BinaryNode_test.go" />
+      <item index="3" class="java.lang.String" itemvalue="Go Test.TestBinaryNode_ToAscArrayEscapingArgs in BinaryNode_test.go" />
+      <item index="4" class="java.lang.String" itemvalue="Go Test.TestBinaryNode_ToDescArrayEscapingArgs in BinaryNode_test.go" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Go Test.TestSmartPrint in BinaryNode_test.go" />
-        <item index="1" class="java.lang.String" itemvalue="Go Test.TestBinaryNode_ToDescLinkedList in BinaryNode_test.go" />
-        <item index="2" class="java.lang.String" itemvalue="Go Test.TestToSortLinkedListStruct in BinaryNode_test.go" />
-        <item index="3" class="java.lang.String" itemvalue="Go Test.TestBinaryNode_ToDescArray in BinaryNode_test.go" />
-        <item index="4" class="java.lang.String" itemvalue="Go Test.TestBinaryNode_ToAscArray in BinaryNode_test.go" />
+        <item index="0" class="java.lang.String" itemvalue="Go Test.TestBinaryNode_ToDescArrayEscapingArgs in BinaryNode_test.go" />
+        <item index="1" class="java.lang.String" itemvalue="Go Test.TestBinaryNode_ToAscArrayEscapingArgs in BinaryNode_test.go" />
+        <item index="2" class="java.lang.String" itemvalue="Go Test.TestBinaryNode_Cached in BinaryNode_test.go" />
+        <item index="3" class="java.lang.String" itemvalue="Go Test.TestBinaryNode_FindRoot in BinaryNode_test.go" />
+        <item index="4" class="java.lang.String" itemvalue="Go Test.TestSmartPrint in BinaryNode_test.go" />
       </list>
     </recent_temporary>
   </component>
@@ -261,50 +229,51 @@
     <option name="remove_strategy" value="false" />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestBinaryNode_ToDescLinkedList_in_BinaryNode_test_go - 2018.06.21 at 09h 56m 35s.xml">
-      <configuration name="TestBinaryNode_ToDescLinkedList in BinaryNode_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestBinaryNode_Cached_in_BinaryNode_test_go - 2018.06.21 at 11h 20m 40s.xml">
+      <configuration name="TestBinaryNode_Cached in BinaryNode_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestSmartPrint_in_BinaryNode_test_go - 2018.06.21 at 10h 04m 34s.xml">
-      <configuration name="TestSmartPrint in BinaryNode_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestBinaryNode_Cached_in_BinaryNode_test_go - 2018.06.21 at 11h 21m 24s.xml">
+      <configuration name="TestBinaryNode_Cached in BinaryNode_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestSmartPrint_in_BinaryNode_test_go - 2018.06.21 at 10h 04m 46s.xml">
-      <configuration name="TestSmartPrint in BinaryNode_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestBinaryNode_Cached_in_BinaryNode_test_go - 2018.06.21 at 11h 21m 35s.xml">
+      <configuration name="TestBinaryNode_Cached in BinaryNode_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestSmartPrint_in_BinaryNode_test_go - 2018.06.21 at 10h 06m 14s.xml">
-      <configuration name="TestSmartPrint in BinaryNode_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestBinaryNode_Cached_in_BinaryNode_test_go - 2018.06.21 at 11h 22m 31s.xml">
+      <configuration name="TestBinaryNode_Cached in BinaryNode_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestSmartPrint_in_BinaryNode_test_go - 2018.06.21 at 10h 06m 26s.xml">
-      <configuration name="TestSmartPrint in BinaryNode_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestBinaryNode_Cached_in_BinaryNode_test_go - 2018.06.21 at 11h 23m 08s.xml">
+      <configuration name="TestBinaryNode_Cached in BinaryNode_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestSmartPrint_in_BinaryNode_test_go - 2018.06.21 at 10h 06m 45s.xml">
-      <configuration name="TestSmartPrint in BinaryNode_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestBinaryNode_Cached_in_BinaryNode_test_go - 2018.06.21 at 11h 23m 14s.xml">
+      <configuration name="TestBinaryNode_Cached in BinaryNode_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestToSortLinkedListStruct_in_BinaryNode_test_go - 2018.06.21 at 09h 51m 15s.xml">
-      <configuration name="TestToSortLinkedListStruct in BinaryNode_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestBinaryNode_Cached_in_BinaryNode_test_go - 2018.06.21 at 11h 23m 17s.xml">
+      <configuration name="TestBinaryNode_Cached in BinaryNode_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestToSortLinkedListStruct_in_BinaryNode_test_go - 2018.06.21 at 09h 51m 36s.xml">
-      <configuration name="TestToSortLinkedListStruct in BinaryNode_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestBinaryNode_ToAscArrayEscapingArgs_in_BinaryNode_test_go - 2018.06.21 at 11h 30m 20s.xml">
+      <configuration name="TestBinaryNode_ToAscArrayEscapingArgs in BinaryNode_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestToSortLinkedListStruct_in_BinaryNode_test_go - 2018.06.21 at 09h 51m 51s.xml">
-      <configuration name="TestToSortLinkedListStruct in BinaryNode_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestBinaryNode_ToDescArrayEscapingArgs_in_BinaryNode_test_go - 2018.06.21 at 11h 31m 08s.xml">
+      <configuration name="TestBinaryNode_ToDescArrayEscapingArgs in BinaryNode_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestToSortLinkedListStruct_in_BinaryNode_test_go - 2018.06.21 at 09h 53m 49s.xml">
-      <configuration name="TestToSortLinkedListStruct in BinaryNode_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestBinaryNode_ToDescArrayEscapingArgs_in_BinaryNode_test_go - 2018.06.21 at 11h 31m 52s.xml">
+      <configuration name="TestBinaryNode_ToDescArrayEscapingArgs in BinaryNode_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1928" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1296875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1296875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35382956" sideWeight="0.43489584" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35382956" sideWeight="0.43697917" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35382956" sideWeight="0.5651042" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35382956" sideWeight="0.5630208" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39805827" sideWeight="0.47916666" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39805827" sideWeight="0.47708333" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -341,7 +310,15 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="36" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/BinaryNode.go</url>
+          <line>346</line>
+          <properties />
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="37" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -368,13 +345,13 @@
           <first_editor relative-caret-position="130">
             <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
             <folding>
-              <marker date="1529401978217" expanded="true" signature="115:167" ph="..." />
-              <marker date="1529401978217" expanded="true" signature="210:362" ph="{...}" />
-              <marker date="1529401978217" expanded="true" signature="375:1481" ph="{...}" />
-              <marker date="1529401978217" expanded="true" signature="746:786" ph="/.../" />
-              <marker date="1529401978217" expanded="true" signature="746:860" ph="/.../" />
-              <marker date="1529401978217" expanded="true" signature="917:1015" ph="/.../" />
-              <marker date="1529401978217" expanded="true" signature="1058:1178" ph="/.../" />
+              <marker date="1529552253707" expanded="true" signature="115:167" ph="..." />
+              <marker date="1529552253707" expanded="true" signature="210:362" ph="{...}" />
+              <marker date="1529552253707" expanded="true" signature="375:1535" ph="{...}" />
+              <marker date="1529552253707" expanded="true" signature="746:786" ph="/.../" />
+              <marker date="1529552253707" expanded="true" signature="746:860" ph="/.../" />
+              <marker date="1529552253707" expanded="true" signature="917:1015" ph="/.../" />
+              <marker date="1529552253707" expanded="true" signature="1058:1178" ph="/.../" />
             </folding>
           </first_editor>
           <second_editor />
@@ -475,13 +452,13 @@
           <first_editor relative-caret-position="130">
             <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
             <folding>
-              <marker date="1529401978217" expanded="true" signature="115:167" ph="..." />
-              <marker date="1529401978217" expanded="true" signature="210:362" ph="{...}" />
-              <marker date="1529401978217" expanded="true" signature="375:1481" ph="{...}" />
-              <marker date="1529401978217" expanded="true" signature="746:786" ph="/.../" />
-              <marker date="1529401978217" expanded="true" signature="746:860" ph="/.../" />
-              <marker date="1529401978217" expanded="true" signature="917:1015" ph="/.../" />
-              <marker date="1529401978217" expanded="true" signature="1058:1178" ph="/.../" />
+              <marker date="1529552253707" expanded="true" signature="115:167" ph="..." />
+              <marker date="1529552253707" expanded="true" signature="210:362" ph="{...}" />
+              <marker date="1529552253707" expanded="true" signature="375:1535" ph="{...}" />
+              <marker date="1529552253707" expanded="true" signature="746:786" ph="/.../" />
+              <marker date="1529552253707" expanded="true" signature="746:860" ph="/.../" />
+              <marker date="1529552253707" expanded="true" signature="917:1015" ph="/.../" />
+              <marker date="1529552253707" expanded="true" signature="1058:1178" ph="/.../" />
             </folding>
           </first_editor>
           <second_editor />
@@ -628,25 +605,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="130">
-            <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-            <folding>
-              <marker date="1529401978217" expanded="true" signature="115:167" ph="..." />
-              <marker date="1529401978217" expanded="true" signature="210:362" ph="{...}" />
-              <marker date="1529401978217" expanded="true" signature="375:1481" ph="{...}" />
-              <marker date="1529401978217" expanded="true" signature="746:786" ph="/.../" />
-              <marker date="1529401978217" expanded="true" signature="746:860" ph="/.../" />
-              <marker date="1529401978217" expanded="true" signature="917:1015" ph="/.../" />
-              <marker date="1529401978217" expanded="true" signature="1058:1178" ph="/.../" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://E:/go/src/runtime/panic.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
@@ -671,14 +629,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/btInterface.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/doc.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
@@ -695,23 +645,66 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/init.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cached.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1404">
+          <caret line="54" column="51" lean-forward="false" selection-start-line="54" selection-start-column="50" selection-end-line="54" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/BinaryNode_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="168" column="10" lean-forward="true" selection-start-line="168" selection-start-column="10" selection-end-line="168" selection-end-column="10" />
+        <state relative-caret-position="3640">
+          <caret line="140" column="1" lean-forward="true" selection-start-line="140" selection-start-column="1" selection-end-line="140" selection-end-column="1" />
           <folding>
             <element signature="e#15#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/btInterface.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/BinaryNode.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="467" column="1" lean-forward="true" selection-start-line="467" selection-start-column="1" selection-end-line="467" selection-end-column="1" />
+        <state relative-caret-position="182">
+          <caret line="257" column="29" lean-forward="false" selection-start-line="257" selection-start-column="29" selection-end-line="257" selection-end-column="29" />
           <folding>
             <element signature="e#15#53#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="364">
+            <caret line="59" column="15" lean-forward="false" selection-start-line="59" selection-start-column="15" selection-end-line="59" selection-end-column="15" />
+            <folding>
+              <marker date="1529552253707" expanded="true" signature="115:167" ph="..." />
+              <marker date="1529552253707" expanded="true" signature="210:362" ph="{...}" />
+              <marker date="1529552253707" expanded="true" signature="375:1535" ph="{...}" />
+              <marker date="1529552253707" expanded="true" signature="746:786" ph="/.../" />
+              <marker date="1529552253707" expanded="true" signature="746:860" ph="/.../" />
+              <marker date="1529552253707" expanded="true" signature="917:1015" ph="/.../" />
+              <marker date="1529552253707" expanded="true" signature="1058:1178" ph="/.../" />
+            </folding>
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
