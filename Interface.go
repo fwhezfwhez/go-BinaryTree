@@ -53,4 +53,13 @@ type BTreeI interface {
 	ToAscLinkedList() (*SortedLinkedList, error)
 	//transfer a bt to a LinkedList desc
 	ToDescLinkedList() (*SortedLinkedList, error)
+
+	//Balance a bt'copy ,no modifying to itself
+    BalanceCopy() *BinaryNode
+    //Balance a bt to avl
+    Balance()*BinaryNode
+    //Pacakge a balanced bt to the specific new struct AVL,which is extendable and now contains a root *Binary
+    ToAVL()*AVL
+
+
 }

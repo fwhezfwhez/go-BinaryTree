@@ -6,14 +6,17 @@ func Init(){
 	node=New(7)
 	node2,_ =node.Insert(5)
 	node3,_ =node.Insert(9)
-	node4,_ =node.Insert(11)
-	node5,_ =node.Insert(11)
-	node.Insert(10)
-	node.Insert(8)
-	nodei,_=node.Insert(1)
-	node.Insert(6)
-	node.Insert(0)
+	//node4,_ =node.Insert(11)
+	//node5,_ =node.Insert(11)
+	//node.Insert(10)
+	//node.Insert(8)
+	//nodei,_=node.Insert(1)
+	//node.Insert(6)
+	//node.Insert(0)
 	node.Insert(3)
+	node.Insert(6)
+	node.Insert(1)
+	node.Insert(4)
 	//node2=New(5)
 	//node3=New(9)
 	//node4=New(11)
@@ -96,7 +99,8 @@ func TestMmax(t *testing.T){
 func TestNodeNum(t *testing.T){
 	Init()
 	var sum int
-	t.Log(node.GetNodesNum(&sum))
+	node.GetNodesNum(&sum)
+	t.Log(sum)
 }
 
 func TestMaxHeight(t *testing.T){
@@ -145,7 +149,8 @@ func TestBinaryNode_ToDescLinkedList(t *testing.T) {
 func TestBinaryNode_ToAscArray(t *testing.T) {
 	Init()
 	var sum = 0
-	var rs = make([]interface{},node.GetNodesNum(&sum))
+	node.GetNodesNum(&sum)
+	var rs = make([]interface{},sum)
 	var tmp =0
 	node.ToAscArray(&rs,&tmp)
 	t.Log(rs)
@@ -167,7 +172,8 @@ func TestBinaryNode_ToDescArrayEscapingArgs(t *testing.T) {
 func TestBinaryNode_ToDescArray(t *testing.T) {
 	Init()
 	var sum = 0
-	var rs = make([]interface{},node.GetNodesNum(&sum))
+	node.GetNodesNum(&sum)
+	var rs = make([]interface{},sum)
 	var tmp =0
 	node.ToDescArray(&rs,&tmp)
 	t.Log(rs)
@@ -196,4 +202,39 @@ func TestBinaryNode_Cached(t *testing.T) {
 		t.Fatal(er.Error())
 	}
 	SmartPrint(*rs)
+}
+func TestBinaryNode_Abs(t *testing.T) {
+	t.Log(abs(2))
+	t.Log(abs(-2))
+}
+
+func TestBinaryNode_RotateWithLeftChild(t *testing.T) {
+	Init()
+	t.Log(node.RotateWithLeftChild())
+}
+
+func TestBinaryNode_RotateWithRightChild(t *testing.T) {
+	Init()
+	t.Log(node.RotateWithLeftChild().RotateWithRightChild())
+}
+
+func TestBinaryNode_DoubleRotateLeftChild(t *testing.T) {
+	Init()
+	t.Log(node.DoubleRotateLeftChild())
+}
+
+func TestBinaryNode_Balance(t *testing.T) {
+	Init()
+	t.Log(node.Balance().ToDescArrayEscapingArgs())
+}
+func TestCopyBalance(t *testing.T){
+	Init()
+	//rs := node.BalanceCopy()
+	//t.Log(rs.ToDescArrayEscapingArgs())
+	t.Log(node.BalanceCopy().ToDescArrayEscapingArgs())
+}
+
+func TestBinaryNode_ToAVL(t *testing.T) {
+	Init()
+	t.Log(node.ToAVL().Root)
 }

@@ -39,6 +39,103 @@ func NewWithLeft(data interface{}, left *BinaryNode) *BinaryNode {
 	return &BinaryNode{data, nil, left, nil}
 }
 
+// balance the copy of bt to an avl
+func (root *BinaryNode)BalanceCopy() *BinaryNode{
+	copy := *root
+	return copy.Balance()
+}
+//balance the bt to an avl
+//unfinished
+func (bt *BinaryNode)Balance() *BinaryNode{
+	if bt==nil {
+		return nil
+	}
+
+	if (bt.Left.GetMaxHeight() - bt.Right.GetMaxHeight())>1 {
+		if bt.Left.Left.GetMaxHeight()>=bt.Left.Right.GetMaxHeight() {
+			return bt.RotateWithLeftChild()
+		}else{
+			return bt.DoubleRotateLeftChild()
+		}
+	}else{
+		if (bt.Right.GetMaxHeight() - bt.Left.GetMaxHeight()) >1 {
+			if bt.Right.Right.GetMaxHeight() >bt.Right.Left.GetMaxHeight(){
+				return bt.RotateWithRightChild()
+			}else{
+				return bt.DoubleRotateRightChild()
+			}
+		}
+	}
+	//bt.GetMaxHeight
+	return bt
+}
+
+func (bt *BinaryNode) RotateWithLeftChild() *BinaryNode{
+	if bt.Left !=nil && bt.Left.Right!=nil{
+		tmp := bt.Left
+		bt.Left =tmp.Right
+		tmp.Right.Parant = bt
+		tmp.Right = bt
+		tmp.Parant = bt.Parant
+
+		if bt.Parant!=nil {
+			if bt.Parant.Left == bt {
+				bt.Parant.Left = tmp
+			}else{
+				bt.Parant.Right = tmp
+			}
+		}
+		bt.Parant = tmp
+		return tmp
+	}else{
+		return bt
+	}
+}
+
+func (bt *BinaryNode) DoubleRotateLeftChild()*BinaryNode{
+	if bt.Left!=nil{
+		bt.Left = bt.Left.RotateWithRightChild()
+		return bt.RotateWithLeftChild()
+	}else{
+		return bt
+	}
+}
+
+func (bt *BinaryNode) DoubleRotateRightChild()*BinaryNode{
+	if bt.Right !=nil{
+		bt.Right = bt.Right.RotateWithLeftChild()
+		return bt.RotateWithRightChild()
+	}else{
+		return bt
+	}
+
+}
+
+func (bt *BinaryNode) RotateWithRightChild()*BinaryNode {
+	if bt.Right!=nil &&bt.Right.Left!=nil{
+		tmp:=bt.Right
+		bt.Right = tmp.Left
+		tmp.Left.Parant = bt
+
+
+		tmp.Left = bt
+		tmp.Parant = bt.Parant
+
+		if bt.Parant!=nil {
+			if bt.Parant.Left == bt {
+				bt.Parant.Left = tmp
+			}else{
+				bt.Parant.Right = tmp
+			}
+		}
+		bt.Parant =tmp
+		return tmp
+	}else{
+		return bt
+	}
+
+
+}
 //if a bt contains data
 func (bt *BinaryNode) Contain(data interface{}) (bool, error) {
 	if data == nil {
@@ -295,16 +392,14 @@ func (bt *BinaryNode) GetNodesNum(sum *int)  {
 		if bt.Left != nil {
 			bt.Left.GetNodesNum(sum)
 		}
-	} else {
-		return 0
 	}
-	return *sum
 }
 
 //get a bt's node number escaping arg
 func (bt *BinaryNode) GetNodesNumEscapingArgs() int {
 	var sum int
-	return bt.GetNodesNum(&sum)
+	bt.GetNodesNum(&sum)
+	return sum
 }
 
 //get the maxHeight of a bt
@@ -416,14 +511,15 @@ func (bt *BinaryNode) MustGetCache() *BTreeCache {
 
 //transfer a bt to a redBlack pattern
 //what is a red-black tree,refer to www.baidu.com, www.google.com
-func ToRedBlack() (*BinaryNode, error) {
-	return nil, nil
+func (bt *BinaryNode)ToRedBlack()  error {
+	return  nil
 }
 
 //transfer a bt to an avl parttern
 //what is an avl tree,refer to www.baidu.com,www.google.com
-func ToAVL() (*BinaryNode, error) {
-	return nil, nil
+func (bt *BinaryNode)ToAVL() (*AVL){
+	tmp := bt.BalanceCopy()
+	return &AVL{Root:tmp}
 }
 
 //transfer a bt to a linked list order asc
@@ -466,15 +562,15 @@ func (bt *BinaryNode) ToDescLinkedList() (*SortedLinkedList, error) {
 	return &SortedLinkedList{head}, nil
 }
 
-//rotate left
-func (av *RedBlack) LeftRotate() (*AVL, error) {
-	return nil, nil
-}
-
-//rotate right
-func (av *RedBlack) RightRotate() (*AVL, error) {
-	return nil, nil
-}
+////rotate left
+//func (av *RedBlack) LeftRotate() (*AVL, error) {
+//	return nil, nil
+//}
+//
+////rotate right
+//func (av *RedBlack) RightRotate() (*AVL, error) {
+//	return nil, nil
+//}
 
 //compare two interface{} value ,only supports for int,int64,int32,int16,int8,string,float32,float64
 func Compare(v1 interface{}, v2 interface{}) (int, error) {
@@ -579,6 +675,13 @@ func max(args ... int) int {
 	return maxTmp
 }
 
+func abs(arg int)int{
+	if arg>0 {
+		return arg
+	}else{
+		return -arg
+	}
+}
 func SmartPrint(i interface{}) {
 	var kv = make(map[string]interface{})
 	vValue := reflect.ValueOf(i)

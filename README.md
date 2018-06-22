@@ -81,6 +81,19 @@ func main() {
 	fmt.Println(node.ToDescLinkedList())
 	fmt.Println(node.ToAscLinkedList())
 	
-	//17...more functions building 
+	//17. Balance a bt'copy ,no modifying to itself
+	fmt.Print(node.BalanceCopy().ToDescArrayEscapintArgs())
+	//18. Balance itself
+	fmt.Println(node.Balance().ToDescArrayEscapingArgs())
+	//19. transfer a normal bt to an AVL
+	fmt.Println(node.ToAVL().Root)
+	/*
+	  	//Balance a bt'copy ,no modifying to itself
+          BalanceCopy() BinaryNode
+          //Balance a bt to avl 
+          Balance()*BinaryNode
+          //Pacakge a balanced bt to the specific new struct AVL,which is extendable and now contains a root *Binary
+          ToAVL()*AVL
+	 */
 }
 ```
