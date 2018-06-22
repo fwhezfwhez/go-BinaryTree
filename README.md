@@ -82,7 +82,7 @@ func main() {
 	fmt.Println(node.ToAscLinkedList())
 	
 	//17. Balance a bt'copy ,no modifying to itself
-	fmt.Print(node.BalanceCopy().ToDescArrayEscapintArgs())
+	fmt.Print(node.BalanceCopy().ToDescArrayEscapingArgs())
 	//18. Balance itself
 	fmt.Println(node.Balance().ToDescArrayEscapingArgs())
 	//19. transfer a normal bt to an AVL
