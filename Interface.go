@@ -1,5 +1,7 @@
 package BTree
 
+import "github.com/fwhezfwhez/go-queue"
+
 type BTreeI interface {
 	//if a bt contains data
 	Contain(data interface{}) (bool, error)
@@ -16,7 +18,6 @@ type BTreeI interface {
 	//Get the nearest ancestor of two node
 	GetAncestor(node1, node2 *BinaryNode) (*BinaryNode, error)
 
-
 	//Assume node1 and node2 is contained,get the nearest distance of two node,however,it didn't support compare two nodes which have the same data,New(11) and new(11) is uncomparable
 	//if node1 or node2 isn't included,nil pointer error occurred
 	GetDistance(node1, node2 *BinaryNode) (int, error)
@@ -25,7 +26,7 @@ type BTreeI interface {
 	//get max two node distance of a bt
 	GetMaxDistance() (int, error)
 	//get a bt's node number
-	 GetNodesNum(sum *int)
+	GetNodesNum(sum *int)
 	//get a bt's node number escaping arg
 	GetNodesNumEscapingArgs() int
 	//get the maxHeight of a bt
@@ -55,11 +56,35 @@ type BTreeI interface {
 	ToDescLinkedList() (*SortedLinkedList, error)
 
 	//Balance a bt'copy ,no modifying to itself
-    BalanceCopy() *BinaryNode
-    //Balance a bt to avl
-    Balance()*BinaryNode
-    //Pacakge a balanced bt to the specific new struct AVL,which is extendable and now contains a root *Binary
-    ToAVL()*AVL
+	BalanceCopy() *BinaryNode
+	//Balance a bt to avl
+	Balance() *BinaryNode
+	//Pacakge a balanced bt to the specific new struct AVL,which is extendable and now contains a root *Binary
+	ToAVL() *AVL
+	//
+	//put a single level datas into a queue
+	LevelDataToQueue(level int, queue *Queue.Queue)
 
+	//put a single level nodes into a queue
+	LevelNodeToQueue(level int, queue *Queue.Queue) int
 
+	//put all datas into a queue order by level/layer/depth
+	LevelVisitToQueue() *Queue.Queue
+
+	//put all nodes into a queue order by level/layer/depth
+	LevelVisitNodeToQueue() *Queue.Queue
+
+	//put all nodes into a array  order by level/layer/depth
+	LevelVisitNodeToArray() []*BinaryNode
+	//put all datas into a array order by level/layer/depth
+	LevelVisitToArray() []interface{}
+
+	//put a single level's datas into a array
+	LevelDataToArray(i int) []interface{}
+
+	//node number of each level,rs[3]=5 represents  level 3 has 5 nodes
+	GetLevelNodeNumMap() map[int]int
+
+	//node number of all levels,for example [1,2,4,4,2] represents level 0 has 1 node,level 1 has 2 nodes,level 3 has 4 nodes...
+	GetLevelNodeNumArr() []int
 }

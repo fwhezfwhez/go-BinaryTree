@@ -1,5 +1,7 @@
 BTree realization in go
 
+interface.go is can be referred but the real method api should use BinaryNode.go'own 
+
 **if you find any bug or want to add new requirement,call me at 1728565484@qq.com,or submit your issur above**
 
 **start**

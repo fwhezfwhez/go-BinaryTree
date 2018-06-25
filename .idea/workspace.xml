@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="485ccf8a-7586-4843-a4dd-f8e6cd0c7cb1" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/BinaryNode.go" afterPath="$PROJECT_DIR$/BinaryNode.go" />
+      <change beforePath="$PROJECT_DIR$/BinaryNode_test.go" afterPath="$PROJECT_DIR$/BinaryNode_test.go" />
+      <change beforePath="$PROJECT_DIR$/Interface.go" afterPath="$PROJECT_DIR$/Interface.go" />
       <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,12 +20,19 @@
       <file leaf-file-name="BinaryNode.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BinaryNode.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-520">
-              <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+            <state relative-caret-position="388">
+              <caret line="851" column="1" lean-forward="true" selection-start-line="757" selection-start-column="0" selection-end-line="851" selection-end-column="1" />
               <folding>
+                <element signature="e#15#87#0" expanded="true" />
                 <element signature="n#!!block;n#New#0" expanded="false" />
                 <element signature="n#!!block;n#NewWithParent#0" expanded="false" />
                 <element signature="n#!!block;n#NewWithLeft#0" expanded="false" />
+                <element signature="n#!!block;n#BalanceCopy#0" expanded="false" />
+                <element signature="n#!!block;n#Balance#0" expanded="false" />
+                <element signature="n#!!block;n#RotateWithLeftChild#0" expanded="false" />
+                <element signature="n#!!block;n#DoubleRotateLeftChild#0" expanded="false" />
+                <element signature="n#!!block;n#DoubleRotateRightChild#0" expanded="false" />
+                <element signature="n#!!block;n#RotateWithRightChild#0" expanded="false" />
                 <element signature="n#!!block;n#Contain#0" expanded="false" />
                 <element signature="n#!!block;n#FindMax#0" expanded="false" />
                 <element signature="n#!!block;n#FindMin#0" expanded="false" />
@@ -32,21 +43,47 @@
                 <element signature="n#!!block;n#GetDistance#0" expanded="false" />
                 <element signature="n#!!block;n#GetMaxDepth#0" expanded="false" />
                 <element signature="n#!!block;n#GetMaxDistance#0" expanded="false" />
-                <element signature="n#!!block;n#GetMaxHeight#0" expanded="false" />
+                <element signature="n#!!block;n#GetNodesNum#0" expanded="false" />
+                <element signature="n#!!block;n#GetNodesNumEscapingArgs#0" expanded="false" />
                 <element signature="n#!!block;n#GetNodeHeight#0" expanded="false" />
                 <element signature="n#!!block;n#ToAscArray#0" expanded="false" />
                 <element signature="n#!!block;n#ToAscArrayEscapingArgs#0" expanded="false" />
                 <element signature="n#!!block;n#ToDescArray#0" expanded="false" />
+                <element signature="n#!!block;n#ToDescArrayEscapingArgs#0" expanded="false" />
                 <element signature="n#!!block;n#FindRoot#0" expanded="false" />
                 <element signature="n#!!block;n#Cached#0" expanded="false" />
                 <element signature="n#!!block;n#GetCache#0" expanded="false" />
                 <element signature="n#!!block;n#MustGetCache#0" expanded="false" />
+                <element signature="n#!!block;n#ToRedBlack#0" expanded="false" />
+                <element signature="n#!!block;n#ToAscLinkedList#0" expanded="false" />
                 <element signature="n#!!block;n#ToDescLinkedList#0" expanded="false" />
+                <element signature="n#!!block;n#Paint#0" expanded="false" />
+                <element signature="n#!!block;n#GetChildren#0" expanded="false" />
                 <element signature="n#!!block;n#Compare#0" expanded="false" />
                 <element signature="n#!!block;n#max#0" expanded="false" />
+                <element signature="n#!!block;n#abs#0" expanded="false" />
                 <element signature="n#!!block;n#SmartPrint#0" expanded="false" />
                 <element signature="n#!!block;n#IfZero#0" expanded="false" />
+                <element signature="n#!!block;n#LevelDataToQueue#0" expanded="false" />
+                <element signature="n#!!block;n#LevelNodeToQueue#0" expanded="false" />
+                <element signature="n#!!block;n#LevelVisitToQueue#0" expanded="false" />
+                <element signature="n#!!block;n#LevelVisitNodeToQueue#0" expanded="false" />
+                <element signature="n#!!block;n#LevelVisitNodeToArray#0" expanded="false" />
+                <element signature="n#!!block;n#LevelVisitToArray#0" expanded="false" />
+                <element signature="n#!!block;n#LevelDataToArray#0" expanded="false" />
+                <element signature="n#!!block;n#GetLevelNodeNumMap#0" expanded="false" />
+                <element signature="n#!!block;n#GetLevelNodeNumArr#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="queue.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../github.com/fwhezfwhez/go-queue/queue.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="71" column="16" lean-forward="false" selection-start-line="71" selection-start-column="16" selection-end-line="71" selection-end-column="16" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -54,29 +91,39 @@
       <file leaf-file-name="Cached.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Cached.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="54" column="36" lean-forward="true" selection-start-line="54" selection-start-column="36" selection-end-line="54" selection-end-column="36" />
+            <state relative-caret-position="260">
+              <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="doc.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/doc.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="242">
-                <caret line="84" column="58" lean-forward="false" selection-start-line="84" selection-start-column="58" selection-end-line="84" selection-end-column="58" />
+              <first_editor relative-caret-position="52">
+                <caret line="2" column="30" lean-forward="false" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
                 <folding>
-                  <marker date="1529643027813" expanded="true" signature="227:279" ph="..." />
-                  <marker date="1529643027813" expanded="true" signature="322:477" ph="{...}" />
-                  <marker date="1529643027813" expanded="true" signature="490:2762" ph="{...}" />
-                  <marker date="1529643027813" expanded="true" signature="861:901" ph="/.../" />
-                  <marker date="1529643027813" expanded="true" signature="861:975" ph="/.../" />
-                  <marker date="1529643027813" expanded="true" signature="1032:1130" ph="/.../" />
-                  <marker date="1529643027813" expanded="true" signature="1173:1293" ph="/.../" />
-                  <marker date="1529643027813" expanded="true" signature="2467:2760" ph="/*...*/" />
-                  <marker date="1529643027813" expanded="true" signature="2467:2762" ph="/*...*/" />
+                  <marker date="1529920931016" expanded="true" signature="314:366" ph="..." />
+                  <marker date="1529920931016" expanded="true" signature="409:564" ph="{...}" />
+                  <marker date="1529920931016" expanded="true" signature="577:2849" ph="{...}" />
+                  <marker date="1529920931016" expanded="true" signature="948:988" ph="/.../" />
+                  <marker date="1529920931016" expanded="true" signature="948:1062" ph="/.../" />
+                  <marker date="1529920931016" expanded="true" signature="1119:1217" ph="/.../" />
+                  <marker date="1529920931016" expanded="true" signature="1260:1380" ph="/.../" />
+                  <marker date="1529920931016" expanded="true" signature="2554:2847" ph="/*...*/" />
+                  <marker date="1529920931016" expanded="true" signature="2554:2849" ph="/*...*/" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -84,11 +131,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Interface.go" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Interface.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Interface.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="57" column="12" lean-forward="true" selection-start-line="57" selection-start-column="12" selection-end-line="57" selection-end-column="12" />
+            <state relative-caret-position="336">
+              <caret line="43" column="43" lean-forward="true" selection-start-line="43" selection-start-column="43" selection-end-line="43" selection-end-column="43" />
+              <folding>
+                <element signature="e#15#54#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BinaryNode.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../github.com/fwhezfwhez/go-BinaryTree/BinaryNode.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="165" column="22" lean-forward="true" selection-start-line="165" selection-start-column="22" selection-end-line="165" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -97,11 +156,21 @@
       <file leaf-file-name="BinaryNode_test.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BinaryNode_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="454">
-              <caret line="233" column="25" lean-forward="false" selection-start-line="233" selection-start-column="25" selection-end-line="233" selection-end-column="25" />
+            <state relative-caret-position="402">
+              <caret line="313" column="1" lean-forward="true" selection-start-line="313" selection-start-column="1" selection-end-line="313" selection-end-column="1" />
               <folding>
-                <element signature="e#15#31#0" expanded="true" />
+                <element signature="e#15#70#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testing.go" pinned="false" current-in-tab="false">
+        <entry file="file://E:/go/src/testing/testing.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="179">
+              <caret line="741" column="0" lean-forward="false" selection-start-line="741" selection-start-column="0" selection-end-line="741" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -130,14 +199,14 @@
         <option value="$PROJECT_DIR$/btInterface.go" />
         <option value="$PROJECT_DIR$/btInterface.go" />
         <option value="$PROJECT_DIR$/init.go" />
+        <option value="$PROJECT_DIR$/doc.go" />
+        <option value="$PROJECT_DIR$/doc.go" />
         <option value="$PROJECT_DIR$/Cached.go" />
-        <option value="$PROJECT_DIR$/doc.go" />
-        <option value="$PROJECT_DIR$/doc.go" />
-        <option value="$PROJECT_DIR$/BinaryNode.go" />
-        <option value="$PROJECT_DIR$/BinaryNode.go" />
         <option value="$PROJECT_DIR$/BinaryNode_test.go" />
-        <option value="$PROJECT_DIR$/Interface.go" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/BinaryNode.go" />
+        <option value="$PROJECT_DIR$/BinaryNode.go" />
+        <option value="$PROJECT_DIR$/Interface.go" />
       </list>
     </option>
   </component>
@@ -186,7 +255,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../github.com/fwhezfwhez/go-BinaryTree" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
   </component>
   <component name="RunDashboard">
@@ -201,7 +270,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestCopyBalance in BinaryNode_test.go">
+  <component name="RunManager" selected="Go Test.TestBinaryNode_LevelVisitNodeToArray in BinaryNode_test.go">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="BinaryNode" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -211,50 +280,50 @@
       <package value="BinaryNode" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
-    <configuration name="TestBinaryNode_Balance in BinaryNode_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+    <configuration name="TestBinaryNode_GetPaint in BinaryNode_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
       <module name="go-BinaryNode" />
       <working_directory value="$PROJECT_DIR$" />
       <go_parameters value="-i" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
       <package value="BTree" />
-      <pattern value="^TestBinaryNode_Balance$" />
+      <pattern value="^TestBinaryNode_GetPaint$" />
     </configuration>
-    <configuration name="TestBinaryNode_DoubleRotateLeftChild in BinaryNode_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+    <configuration name="TestBinaryNode_LevelNodeToQueue in BinaryNode_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
       <module name="go-BinaryNode" />
       <working_directory value="$PROJECT_DIR$" />
       <go_parameters value="-i" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
       <package value="BTree" />
-      <pattern value="^TestBinaryNode_DoubleRotateLeftChild$" />
+      <pattern value="^TestBinaryNode_LevelNodeToQueue$" />
     </configuration>
-    <configuration name="TestBinaryNode_RotateWithRightChild in BinaryNode_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+    <configuration name="TestBinaryNode_LevelVisitNodeToArray in BinaryNode_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
       <module name="go-BinaryNode" />
       <working_directory value="$PROJECT_DIR$" />
       <go_parameters value="-i" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
       <package value="BTree" />
-      <pattern value="^TestBinaryNode_RotateWithRightChild$" />
+      <pattern value="^TestBinaryNode_LevelVisitNodeToArray$" />
     </configuration>
-    <configuration name="TestBinaryNode_ToAVL in BinaryNode_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+    <configuration name="TestBinaryNode_LevelVisitNodeToQueue in BinaryNode_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
       <module name="go-BinaryNode" />
       <working_directory value="$PROJECT_DIR$" />
       <go_parameters value="-i" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
       <package value="BTree" />
-      <pattern value="^TestBinaryNode_ToAVL$" />
+      <pattern value="^TestBinaryNode_LevelVisitNodeToQueue$" />
     </configuration>
-    <configuration name="TestCopyBalance in BinaryNode_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+    <configuration name="TestBinaryNode_Paint in BinaryNode_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
       <module name="go-BinaryNode" />
       <working_directory value="$PROJECT_DIR$" />
       <go_parameters value="-i" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
       <package value="BTree" />
-      <pattern value="^TestCopyBalance$" />
+      <pattern value="^TestBinaryNode_Paint$" />
     </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
       <module name="BinaryNode" />
@@ -265,19 +334,19 @@
       <package value="BinaryNode" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Go Test.TestBinaryNode_RotateWithRightChild in BinaryNode_test.go" />
-      <item index="1" class="java.lang.String" itemvalue="Go Test.TestBinaryNode_DoubleRotateLeftChild in BinaryNode_test.go" />
-      <item index="2" class="java.lang.String" itemvalue="Go Test.TestBinaryNode_Balance in BinaryNode_test.go" />
-      <item index="3" class="java.lang.String" itemvalue="Go Test.TestCopyBalance in BinaryNode_test.go" />
-      <item index="4" class="java.lang.String" itemvalue="Go Test.TestBinaryNode_ToAVL in BinaryNode_test.go" />
+      <item index="0" class="java.lang.String" itemvalue="Go Test.TestBinaryNode_GetPaint in BinaryNode_test.go" />
+      <item index="1" class="java.lang.String" itemvalue="Go Test.TestBinaryNode_Paint in BinaryNode_test.go" />
+      <item index="2" class="java.lang.String" itemvalue="Go Test.TestBinaryNode_LevelNodeToQueue in BinaryNode_test.go" />
+      <item index="3" class="java.lang.String" itemvalue="Go Test.TestBinaryNode_LevelVisitNodeToQueue in BinaryNode_test.go" />
+      <item index="4" class="java.lang.String" itemvalue="Go Test.TestBinaryNode_LevelVisitNodeToArray in BinaryNode_test.go" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Go Test.TestCopyBalance in BinaryNode_test.go" />
-        <item index="1" class="java.lang.String" itemvalue="Go Test.TestBinaryNode_ToAVL in BinaryNode_test.go" />
-        <item index="2" class="java.lang.String" itemvalue="Go Test.TestBinaryNode_Balance in BinaryNode_test.go" />
-        <item index="3" class="java.lang.String" itemvalue="Go Test.TestBinaryNode_DoubleRotateLeftChild in BinaryNode_test.go" />
-        <item index="4" class="java.lang.String" itemvalue="Go Test.TestBinaryNode_RotateWithRightChild in BinaryNode_test.go" />
+        <item index="0" class="java.lang.String" itemvalue="Go Test.TestBinaryNode_LevelVisitNodeToArray in BinaryNode_test.go" />
+        <item index="1" class="java.lang.String" itemvalue="Go Test.TestBinaryNode_LevelVisitNodeToQueue in BinaryNode_test.go" />
+        <item index="2" class="java.lang.String" itemvalue="Go Test.TestBinaryNode_LevelNodeToQueue in BinaryNode_test.go" />
+        <item index="3" class="java.lang.String" itemvalue="Go Test.TestBinaryNode_Paint in BinaryNode_test.go" />
+        <item index="4" class="java.lang.String" itemvalue="Go Test.TestBinaryNode_GetPaint in BinaryNode_test.go" />
       </list>
     </recent_temporary>
   </component>
@@ -285,35 +354,35 @@
     <option name="remove_strategy" value="false" />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestBinaryNode_Balance_in_BinaryNode_test_go - 2018.06.22 at 11h 39m 46s.xml">
-      <configuration name="TestBinaryNode_Balance in BinaryNode_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestBinaryNode_LevelNodeToQueue_in_BinaryNode_test_go - 2018.06.25 at 17h 37m 33s.xml">
+      <configuration name="TestBinaryNode_LevelNodeToQueue in BinaryNode_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestBinaryNode_Balance_in_BinaryNode_test_go - 2018.06.22 at 11h 41m 21s.xml">
-      <configuration name="TestBinaryNode_Balance in BinaryNode_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestBinaryNode_LevelNodeToQueue_in_BinaryNode_test_go - 2018.06.25 at 17h 38m 15s.xml">
+      <configuration name="TestBinaryNode_LevelNodeToQueue in BinaryNode_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestBinaryNode_ToAVL_in_BinaryNode_test_go - 2018.06.22 at 12h 18m 58s.xml">
-      <configuration name="TestBinaryNode_ToAVL in BinaryNode_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestBinaryNode_LevelNodeToQueue_in_BinaryNode_test_go - 2018.06.25 at 17h 40m 11s.xml">
+      <configuration name="TestBinaryNode_LevelNodeToQueue in BinaryNode_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestBinaryNode_ToAVL_in_BinaryNode_test_go - 2018.06.22 at 12h 19m 07s.xml">
-      <configuration name="TestBinaryNode_ToAVL in BinaryNode_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestBinaryNode_LevelNodeToQueue_in_BinaryNode_test_go - 2018.06.25 at 17h 40m 15s.xml">
+      <configuration name="TestBinaryNode_LevelNodeToQueue in BinaryNode_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestCopyBalance_in_BinaryNode_test_go - 2018.06.22 at 11h 56m 10s.xml">
-      <configuration name="TestCopyBalance in BinaryNode_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestBinaryNode_LevelNodeToQueue_in_BinaryNode_test_go - 2018.06.25 at 17h 40m 19s.xml">
+      <configuration name="TestBinaryNode_LevelNodeToQueue in BinaryNode_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestCopyBalance_in_BinaryNode_test_go - 2018.06.22 at 11h 56m 21s.xml">
-      <configuration name="TestCopyBalance in BinaryNode_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestBinaryNode_LevelVisitNodeToArray_in_BinaryNode_test_go - 2018.06.25 at 17h 43m 25s.xml">
+      <configuration name="TestBinaryNode_LevelVisitNodeToArray in BinaryNode_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestCopyBalance_in_BinaryNode_test_go - 2018.06.22 at 11h 57m 14s.xml">
-      <configuration name="TestCopyBalance in BinaryNode_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestBinaryNode_LevelVisitNodeToArray_in_BinaryNode_test_go - 2018.06.25 at 18h 03m 31s.xml">
+      <configuration name="TestBinaryNode_LevelVisitNodeToArray in BinaryNode_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestCopyBalance_in_BinaryNode_test_go - 2018.06.22 at 12h 20m 24s.xml">
-      <configuration name="TestCopyBalance in BinaryNode_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestBinaryNode_LevelVisitNodeToQueue_in_BinaryNode_test_go - 2018.06.25 at 17h 38m 50s.xml">
+      <configuration name="TestBinaryNode_LevelVisitNodeToQueue in BinaryNode_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestCopyBalance_in_BinaryNode_test_go - 2018.06.22 at 12h 45m 30s.xml">
-      <configuration name="TestCopyBalance in BinaryNode_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestBinaryNode_LevelVisitNodeToQueue_in_BinaryNode_test_go - 2018.06.25 at 17h 42m 29s.xml">
+      <configuration name="TestBinaryNode_LevelVisitNodeToQueue in BinaryNode_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestCopyBalance_in_BinaryNode_test_go - 2018.06.22 at 12h 45m 47s.xml">
-      <configuration name="TestCopyBalance in BinaryNode_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestBinaryNode_LevelVisitNodeToQueue_in_BinaryNode_test_go - 2018.06.25 at 17h 42m 39s.xml">
+      <configuration name="TestBinaryNode_LevelVisitNodeToQueue in BinaryNode_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -322,13 +391,13 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1296875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35382956" sideWeight="0.4703125" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3257821" sideWeight="0.48489583" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35382956" sideWeight="0.5296875" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3257821" sideWeight="0.5151042" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39805827" sideWeight="0.44791666" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39805827" sideWeight="0.4375" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -369,93 +438,42 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/BinaryNode.go</url>
-          <line>479</line>
+          <line>483</line>
           <option name="timeStamp" value="36" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/BinaryNode.go</url>
-          <line>217</line>
+          <line>224</line>
           <option name="timeStamp" value="43" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/BinaryNode.go</url>
-          <line>239</line>
+          <line>246</line>
           <option name="timeStamp" value="45" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/BinaryNode_test.go</url>
-          <line>212</line>
-          <properties />
+          <line>222</line>
           <option name="timeStamp" value="51" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/BinaryNode_test.go</url>
+          <line>240</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="58" />
+      <option name="time" value="67" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/BinaryNode.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!block;n#New#0" expanded="false" />
-            <element signature="n#!!block;n#NewWithParent#0" expanded="false" />
-            <element signature="n#!!block;n#NewWithLeft#0" expanded="false" />
-            <element signature="n#!!block;n#Contain#0" expanded="false" />
-            <element signature="n#!!block;n#FindMax#0" expanded="false" />
-            <element signature="n#!!block;n#FindMin#0" expanded="false" />
-            <element signature="n#!!block;n#Insert#0" expanded="false" />
-            <element signature="n#!!block;n#Remove#0" expanded="false" />
-            <element signature="n#!!block;n#GetDepth#0" expanded="false" />
-            <element signature="n#!!block;n#GetAncestor#0" expanded="false" />
-            <element signature="n#!!block;n#GetDistance#0" expanded="false" />
-            <element signature="n#!!block;n#GetMaxDepth#0" expanded="false" />
-            <element signature="n#!!block;n#GetMaxDistance#0" expanded="false" />
-            <element signature="n#!!block;n#GetMaxHeight#0" expanded="false" />
-            <element signature="n#!!block;n#GetNodeHeight#0" expanded="false" />
-            <element signature="n#!!block;n#ToAscArray#0" expanded="false" />
-            <element signature="n#!!block;n#ToAscArrayEscapingArgs#0" expanded="false" />
-            <element signature="n#!!block;n#ToDescArray#0" expanded="false" />
-            <element signature="n#!!block;n#FindRoot#0" expanded="false" />
-            <element signature="n#!!block;n#Cached#0" expanded="false" />
-            <element signature="n#!!block;n#GetCache#0" expanded="false" />
-            <element signature="n#!!block;n#MustGetCache#0" expanded="false" />
-            <element signature="n#!!block;n#ToDescLinkedList#0" expanded="false" />
-            <element signature="n#!!block;n#Compare#0" expanded="false" />
-            <element signature="n#!!block;n#max#0" expanded="false" />
-            <element signature="n#!!block;n#SmartPrint#0" expanded="false" />
-            <element signature="n#!!block;n#IfZero#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="676">
-            <caret line="26" column="44" lean-forward="false" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
-            <folding>
-              <marker date="1529643027813" expanded="true" signature="227:279" ph="..." />
-              <marker date="1529643027813" expanded="true" signature="322:477" ph="{...}" />
-              <marker date="1529643027813" expanded="true" signature="490:2762" ph="{...}" />
-              <marker date="1529643027813" expanded="true" signature="861:901" ph="/.../" />
-              <marker date="1529643027813" expanded="true" signature="861:975" ph="/.../" />
-              <marker date="1529643027813" expanded="true" signature="1032:1130" ph="/.../" />
-              <marker date="1529643027813" expanded="true" signature="1173:1293" ph="/.../" />
-              <marker date="1529643027813" expanded="true" signature="2467:2760" ph="/*...*/" />
-              <marker date="1529643027813" expanded="true" signature="2467:2762" ph="/*...*/" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Interface.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="702">
           <caret line="27" column="13" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-          <folding />
+          <folding>
+            <element signature="e#15#54#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -464,7 +482,7 @@
         <state relative-caret-position="5304">
           <caret line="204" column="12" lean-forward="false" selection-start-line="204" selection-start-column="12" selection-end-line="204" selection-end-column="12" />
           <folding>
-            <element signature="e#15#31#0" expanded="true" />
+            <element signature="e#15#70#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -474,9 +492,16 @@
         <state relative-caret-position="10374">
           <caret line="399" column="27" lean-forward="false" selection-start-line="399" selection-start-column="27" selection-end-line="399" selection-end-column="27" />
           <folding>
+            <element signature="e#15#87#0" expanded="true" />
             <element signature="n#!!block;n#New#0" expanded="false" />
             <element signature="n#!!block;n#NewWithParent#0" expanded="false" />
             <element signature="n#!!block;n#NewWithLeft#0" expanded="false" />
+            <element signature="n#!!block;n#BalanceCopy#0" expanded="false" />
+            <element signature="n#!!block;n#Balance#0" expanded="false" />
+            <element signature="n#!!block;n#RotateWithLeftChild#0" expanded="false" />
+            <element signature="n#!!block;n#DoubleRotateLeftChild#0" expanded="false" />
+            <element signature="n#!!block;n#DoubleRotateRightChild#0" expanded="false" />
+            <element signature="n#!!block;n#RotateWithRightChild#0" expanded="false" />
             <element signature="n#!!block;n#Contain#0" expanded="false" />
             <element signature="n#!!block;n#FindMax#0" expanded="false" />
             <element signature="n#!!block;n#FindMin#0" expanded="false" />
@@ -487,20 +512,36 @@
             <element signature="n#!!block;n#GetDistance#0" expanded="false" />
             <element signature="n#!!block;n#GetMaxDepth#0" expanded="false" />
             <element signature="n#!!block;n#GetMaxDistance#0" expanded="false" />
-            <element signature="n#!!block;n#GetMaxHeight#0" expanded="false" />
+            <element signature="n#!!block;n#GetNodesNum#0" expanded="false" />
+            <element signature="n#!!block;n#GetNodesNumEscapingArgs#0" expanded="false" />
             <element signature="n#!!block;n#GetNodeHeight#0" expanded="false" />
             <element signature="n#!!block;n#ToAscArray#0" expanded="false" />
             <element signature="n#!!block;n#ToAscArrayEscapingArgs#0" expanded="false" />
             <element signature="n#!!block;n#ToDescArray#0" expanded="false" />
+            <element signature="n#!!block;n#ToDescArrayEscapingArgs#0" expanded="false" />
             <element signature="n#!!block;n#FindRoot#0" expanded="false" />
             <element signature="n#!!block;n#Cached#0" expanded="false" />
             <element signature="n#!!block;n#GetCache#0" expanded="false" />
             <element signature="n#!!block;n#MustGetCache#0" expanded="false" />
+            <element signature="n#!!block;n#ToRedBlack#0" expanded="false" />
+            <element signature="n#!!block;n#ToAscLinkedList#0" expanded="false" />
             <element signature="n#!!block;n#ToDescLinkedList#0" expanded="false" />
+            <element signature="n#!!block;n#Paint#0" expanded="false" />
+            <element signature="n#!!block;n#GetChildren#0" expanded="false" />
             <element signature="n#!!block;n#Compare#0" expanded="false" />
             <element signature="n#!!block;n#max#0" expanded="false" />
+            <element signature="n#!!block;n#abs#0" expanded="false" />
             <element signature="n#!!block;n#SmartPrint#0" expanded="false" />
             <element signature="n#!!block;n#IfZero#0" expanded="false" />
+            <element signature="n#!!block;n#LevelDataToQueue#0" expanded="false" />
+            <element signature="n#!!block;n#LevelNodeToQueue#0" expanded="false" />
+            <element signature="n#!!block;n#LevelVisitToQueue#0" expanded="false" />
+            <element signature="n#!!block;n#LevelVisitNodeToQueue#0" expanded="false" />
+            <element signature="n#!!block;n#LevelVisitNodeToArray#0" expanded="false" />
+            <element signature="n#!!block;n#LevelVisitToArray#0" expanded="false" />
+            <element signature="n#!!block;n#LevelDataToArray#0" expanded="false" />
+            <element signature="n#!!block;n#GetLevelNodeNumMap#0" expanded="false" />
+            <element signature="n#!!block;n#GetLevelNodeNumArr#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -518,7 +559,7 @@
         <state relative-caret-position="4186">
           <caret line="161" column="0" lean-forward="true" selection-start-line="161" selection-start-column="0" selection-end-line="161" selection-end-column="0" />
           <folding>
-            <element signature="e#15#31#0" expanded="true" />
+            <element signature="e#15#70#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -529,15 +570,15 @@
           <first_editor relative-caret-position="2184">
             <caret line="84" column="1" lean-forward="true" selection-start-line="84" selection-start-column="1" selection-end-line="84" selection-end-column="1" />
             <folding>
-              <marker date="1529643027813" expanded="true" signature="227:279" ph="..." />
-              <marker date="1529643027813" expanded="true" signature="322:477" ph="{...}" />
-              <marker date="1529643027813" expanded="true" signature="490:2762" ph="{...}" />
-              <marker date="1529643027813" expanded="true" signature="861:901" ph="/.../" />
-              <marker date="1529643027813" expanded="true" signature="861:975" ph="/.../" />
-              <marker date="1529643027813" expanded="true" signature="1032:1130" ph="/.../" />
-              <marker date="1529643027813" expanded="true" signature="1173:1293" ph="/.../" />
-              <marker date="1529643027813" expanded="true" signature="2467:2760" ph="/*...*/" />
-              <marker date="1529643027813" expanded="true" signature="2467:2762" ph="/*...*/" />
+              <marker date="1529920931016" expanded="true" signature="314:366" ph="..." />
+              <marker date="1529920931016" expanded="true" signature="409:564" ph="{...}" />
+              <marker date="1529920931016" expanded="true" signature="577:2849" ph="{...}" />
+              <marker date="1529920931016" expanded="true" signature="948:988" ph="/.../" />
+              <marker date="1529920931016" expanded="true" signature="948:1062" ph="/.../" />
+              <marker date="1529920931016" expanded="true" signature="1119:1217" ph="/.../" />
+              <marker date="1529920931016" expanded="true" signature="1260:1380" ph="/.../" />
+              <marker date="1529920931016" expanded="true" signature="2554:2847" ph="/*...*/" />
+              <marker date="1529920931016" expanded="true" signature="2554:2849" ph="/*...*/" />
             </folding>
           </first_editor>
           <second_editor />
@@ -548,6 +589,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
           <caret line="7" column="75" lean-forward="false" selection-start-line="7" selection-start-column="75" selection-end-line="7" selection-end-column="75" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -558,15 +600,15 @@
           <first_editor relative-caret-position="130">
             <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
             <folding>
-              <marker date="1529643027813" expanded="true" signature="227:279" ph="..." />
-              <marker date="1529643027813" expanded="true" signature="322:477" ph="{...}" />
-              <marker date="1529643027813" expanded="true" signature="490:2762" ph="{...}" />
-              <marker date="1529643027813" expanded="true" signature="861:901" ph="/.../" />
-              <marker date="1529643027813" expanded="true" signature="861:975" ph="/.../" />
-              <marker date="1529643027813" expanded="true" signature="1032:1130" ph="/.../" />
-              <marker date="1529643027813" expanded="true" signature="1173:1293" ph="/.../" />
-              <marker date="1529643027813" expanded="true" signature="2467:2760" ph="/*...*/" />
-              <marker date="1529643027813" expanded="true" signature="2467:2762" ph="/*...*/" />
+              <marker date="1529920931016" expanded="true" signature="314:366" ph="..." />
+              <marker date="1529920931016" expanded="true" signature="409:564" ph="{...}" />
+              <marker date="1529920931016" expanded="true" signature="577:2849" ph="{...}" />
+              <marker date="1529920931016" expanded="true" signature="948:988" ph="/.../" />
+              <marker date="1529920931016" expanded="true" signature="948:1062" ph="/.../" />
+              <marker date="1529920931016" expanded="true" signature="1119:1217" ph="/.../" />
+              <marker date="1529920931016" expanded="true" signature="1260:1380" ph="/.../" />
+              <marker date="1529920931016" expanded="true" signature="2554:2847" ph="/*...*/" />
+              <marker date="1529920931016" expanded="true" signature="2554:2849" ph="/*...*/" />
             </folding>
           </first_editor>
           <second_editor />
@@ -578,7 +620,7 @@
         <state relative-caret-position="2444">
           <caret line="94" column="0" lean-forward="false" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
           <folding>
-            <element signature="e#15#31#0" expanded="true" />
+            <element signature="e#15#70#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -587,6 +629,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18850">
           <caret line="741" column="0" lean-forward="false" selection-start-line="741" selection-start-column="0" selection-end-line="741" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -602,9 +645,16 @@
         <state relative-caret-position="7020">
           <caret line="270" column="5" lean-forward="false" selection-start-line="270" selection-start-column="5" selection-end-line="270" selection-end-column="5" />
           <folding>
+            <element signature="e#15#87#0" expanded="true" />
             <element signature="n#!!block;n#New#0" expanded="false" />
             <element signature="n#!!block;n#NewWithParent#0" expanded="false" />
             <element signature="n#!!block;n#NewWithLeft#0" expanded="false" />
+            <element signature="n#!!block;n#BalanceCopy#0" expanded="false" />
+            <element signature="n#!!block;n#Balance#0" expanded="false" />
+            <element signature="n#!!block;n#RotateWithLeftChild#0" expanded="false" />
+            <element signature="n#!!block;n#DoubleRotateLeftChild#0" expanded="false" />
+            <element signature="n#!!block;n#DoubleRotateRightChild#0" expanded="false" />
+            <element signature="n#!!block;n#RotateWithRightChild#0" expanded="false" />
             <element signature="n#!!block;n#Contain#0" expanded="false" />
             <element signature="n#!!block;n#FindMax#0" expanded="false" />
             <element signature="n#!!block;n#FindMin#0" expanded="false" />
@@ -615,20 +665,36 @@
             <element signature="n#!!block;n#GetDistance#0" expanded="false" />
             <element signature="n#!!block;n#GetMaxDepth#0" expanded="false" />
             <element signature="n#!!block;n#GetMaxDistance#0" expanded="false" />
-            <element signature="n#!!block;n#GetMaxHeight#0" expanded="false" />
+            <element signature="n#!!block;n#GetNodesNum#0" expanded="false" />
+            <element signature="n#!!block;n#GetNodesNumEscapingArgs#0" expanded="false" />
             <element signature="n#!!block;n#GetNodeHeight#0" expanded="false" />
             <element signature="n#!!block;n#ToAscArray#0" expanded="false" />
             <element signature="n#!!block;n#ToAscArrayEscapingArgs#0" expanded="false" />
             <element signature="n#!!block;n#ToDescArray#0" expanded="false" />
+            <element signature="n#!!block;n#ToDescArrayEscapingArgs#0" expanded="false" />
             <element signature="n#!!block;n#FindRoot#0" expanded="false" />
             <element signature="n#!!block;n#Cached#0" expanded="false" />
             <element signature="n#!!block;n#GetCache#0" expanded="false" />
             <element signature="n#!!block;n#MustGetCache#0" expanded="false" />
+            <element signature="n#!!block;n#ToRedBlack#0" expanded="false" />
+            <element signature="n#!!block;n#ToAscLinkedList#0" expanded="false" />
             <element signature="n#!!block;n#ToDescLinkedList#0" expanded="false" />
+            <element signature="n#!!block;n#Paint#0" expanded="false" />
+            <element signature="n#!!block;n#GetChildren#0" expanded="false" />
             <element signature="n#!!block;n#Compare#0" expanded="false" />
             <element signature="n#!!block;n#max#0" expanded="false" />
+            <element signature="n#!!block;n#abs#0" expanded="false" />
             <element signature="n#!!block;n#SmartPrint#0" expanded="false" />
             <element signature="n#!!block;n#IfZero#0" expanded="false" />
+            <element signature="n#!!block;n#LevelDataToQueue#0" expanded="false" />
+            <element signature="n#!!block;n#LevelNodeToQueue#0" expanded="false" />
+            <element signature="n#!!block;n#LevelVisitToQueue#0" expanded="false" />
+            <element signature="n#!!block;n#LevelVisitNodeToQueue#0" expanded="false" />
+            <element signature="n#!!block;n#LevelVisitNodeToArray#0" expanded="false" />
+            <element signature="n#!!block;n#LevelVisitToArray#0" expanded="false" />
+            <element signature="n#!!block;n#LevelDataToArray#0" expanded="false" />
+            <element signature="n#!!block;n#GetLevelNodeNumMap#0" expanded="false" />
+            <element signature="n#!!block;n#GetLevelNodeNumArr#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -637,6 +703,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
           <caret line="7" column="75" lean-forward="false" selection-start-line="7" selection-start-column="75" selection-end-line="7" selection-end-column="75" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -646,9 +713,16 @@
         <state relative-caret-position="3848">
           <caret line="151" column="22" lean-forward="true" selection-start-line="151" selection-start-column="22" selection-end-line="151" selection-end-column="22" />
           <folding>
+            <element signature="e#15#87#0" expanded="true" />
             <element signature="n#!!block;n#New#0" expanded="false" />
             <element signature="n#!!block;n#NewWithParent#0" expanded="false" />
             <element signature="n#!!block;n#NewWithLeft#0" expanded="false" />
+            <element signature="n#!!block;n#BalanceCopy#0" expanded="false" />
+            <element signature="n#!!block;n#Balance#0" expanded="false" />
+            <element signature="n#!!block;n#RotateWithLeftChild#0" expanded="false" />
+            <element signature="n#!!block;n#DoubleRotateLeftChild#0" expanded="false" />
+            <element signature="n#!!block;n#DoubleRotateRightChild#0" expanded="false" />
+            <element signature="n#!!block;n#RotateWithRightChild#0" expanded="false" />
             <element signature="n#!!block;n#Contain#0" expanded="false" />
             <element signature="n#!!block;n#FindMax#0" expanded="false" />
             <element signature="n#!!block;n#FindMin#0" expanded="false" />
@@ -659,20 +733,36 @@
             <element signature="n#!!block;n#GetDistance#0" expanded="false" />
             <element signature="n#!!block;n#GetMaxDepth#0" expanded="false" />
             <element signature="n#!!block;n#GetMaxDistance#0" expanded="false" />
-            <element signature="n#!!block;n#GetMaxHeight#0" expanded="false" />
+            <element signature="n#!!block;n#GetNodesNum#0" expanded="false" />
+            <element signature="n#!!block;n#GetNodesNumEscapingArgs#0" expanded="false" />
             <element signature="n#!!block;n#GetNodeHeight#0" expanded="false" />
             <element signature="n#!!block;n#ToAscArray#0" expanded="false" />
             <element signature="n#!!block;n#ToAscArrayEscapingArgs#0" expanded="false" />
             <element signature="n#!!block;n#ToDescArray#0" expanded="false" />
+            <element signature="n#!!block;n#ToDescArrayEscapingArgs#0" expanded="false" />
             <element signature="n#!!block;n#FindRoot#0" expanded="false" />
             <element signature="n#!!block;n#Cached#0" expanded="false" />
             <element signature="n#!!block;n#GetCache#0" expanded="false" />
             <element signature="n#!!block;n#MustGetCache#0" expanded="false" />
+            <element signature="n#!!block;n#ToRedBlack#0" expanded="false" />
+            <element signature="n#!!block;n#ToAscLinkedList#0" expanded="false" />
             <element signature="n#!!block;n#ToDescLinkedList#0" expanded="false" />
+            <element signature="n#!!block;n#Paint#0" expanded="false" />
+            <element signature="n#!!block;n#GetChildren#0" expanded="false" />
             <element signature="n#!!block;n#Compare#0" expanded="false" />
             <element signature="n#!!block;n#max#0" expanded="false" />
+            <element signature="n#!!block;n#abs#0" expanded="false" />
             <element signature="n#!!block;n#SmartPrint#0" expanded="false" />
             <element signature="n#!!block;n#IfZero#0" expanded="false" />
+            <element signature="n#!!block;n#LevelDataToQueue#0" expanded="false" />
+            <element signature="n#!!block;n#LevelNodeToQueue#0" expanded="false" />
+            <element signature="n#!!block;n#LevelVisitToQueue#0" expanded="false" />
+            <element signature="n#!!block;n#LevelVisitNodeToQueue#0" expanded="false" />
+            <element signature="n#!!block;n#LevelVisitNodeToArray#0" expanded="false" />
+            <element signature="n#!!block;n#LevelVisitToArray#0" expanded="false" />
+            <element signature="n#!!block;n#LevelDataToArray#0" expanded="false" />
+            <element signature="n#!!block;n#GetLevelNodeNumMap#0" expanded="false" />
+            <element signature="n#!!block;n#GetLevelNodeNumArr#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -682,7 +772,7 @@
         <state relative-caret-position="1794">
           <caret line="69" column="20" lean-forward="true" selection-start-line="69" selection-start-column="20" selection-end-line="69" selection-end-column="20" />
           <folding>
-            <element signature="e#15#31#0" expanded="true" />
+            <element signature="e#15#70#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -691,6 +781,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18850">
           <caret line="741" column="0" lean-forward="false" selection-start-line="741" selection-start-column="0" selection-end-line="741" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -707,15 +798,15 @@
           <first_editor relative-caret-position="130">
             <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
             <folding>
-              <marker date="1529643027813" expanded="true" signature="227:279" ph="..." />
-              <marker date="1529643027813" expanded="true" signature="322:477" ph="{...}" />
-              <marker date="1529643027813" expanded="true" signature="490:2762" ph="{...}" />
-              <marker date="1529643027813" expanded="true" signature="861:901" ph="/.../" />
-              <marker date="1529643027813" expanded="true" signature="861:975" ph="/.../" />
-              <marker date="1529643027813" expanded="true" signature="1032:1130" ph="/.../" />
-              <marker date="1529643027813" expanded="true" signature="1173:1293" ph="/.../" />
-              <marker date="1529643027813" expanded="true" signature="2467:2760" ph="/*...*/" />
-              <marker date="1529643027813" expanded="true" signature="2467:2762" ph="/*...*/" />
+              <marker date="1529920931016" expanded="true" signature="314:366" ph="..." />
+              <marker date="1529920931016" expanded="true" signature="409:564" ph="{...}" />
+              <marker date="1529920931016" expanded="true" signature="577:2849" ph="{...}" />
+              <marker date="1529920931016" expanded="true" signature="948:988" ph="/.../" />
+              <marker date="1529920931016" expanded="true" signature="948:1062" ph="/.../" />
+              <marker date="1529920931016" expanded="true" signature="1119:1217" ph="/.../" />
+              <marker date="1529920931016" expanded="true" signature="1260:1380" ph="/.../" />
+              <marker date="1529920931016" expanded="true" signature="2554:2847" ph="/*...*/" />
+              <marker date="1529920931016" expanded="true" signature="2554:2849" ph="/*...*/" />
             </folding>
           </first_editor>
           <second_editor />
@@ -726,6 +817,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
           <caret line="7" column="75" lean-forward="false" selection-start-line="7" selection-start-column="75" selection-end-line="7" selection-end-column="75" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -734,9 +826,16 @@
         <state relative-caret-position="4420">
           <caret line="173" column="0" lean-forward="true" selection-start-line="173" selection-start-column="0" selection-end-line="173" selection-end-column="0" />
           <folding>
+            <element signature="e#15#87#0" expanded="true" />
             <element signature="n#!!block;n#New#0" expanded="false" />
             <element signature="n#!!block;n#NewWithParent#0" expanded="false" />
             <element signature="n#!!block;n#NewWithLeft#0" expanded="false" />
+            <element signature="n#!!block;n#BalanceCopy#0" expanded="false" />
+            <element signature="n#!!block;n#Balance#0" expanded="false" />
+            <element signature="n#!!block;n#RotateWithLeftChild#0" expanded="false" />
+            <element signature="n#!!block;n#DoubleRotateLeftChild#0" expanded="false" />
+            <element signature="n#!!block;n#DoubleRotateRightChild#0" expanded="false" />
+            <element signature="n#!!block;n#RotateWithRightChild#0" expanded="false" />
             <element signature="n#!!block;n#Contain#0" expanded="false" />
             <element signature="n#!!block;n#FindMax#0" expanded="false" />
             <element signature="n#!!block;n#FindMin#0" expanded="false" />
@@ -747,20 +846,36 @@
             <element signature="n#!!block;n#GetDistance#0" expanded="false" />
             <element signature="n#!!block;n#GetMaxDepth#0" expanded="false" />
             <element signature="n#!!block;n#GetMaxDistance#0" expanded="false" />
-            <element signature="n#!!block;n#GetMaxHeight#0" expanded="false" />
+            <element signature="n#!!block;n#GetNodesNum#0" expanded="false" />
+            <element signature="n#!!block;n#GetNodesNumEscapingArgs#0" expanded="false" />
             <element signature="n#!!block;n#GetNodeHeight#0" expanded="false" />
             <element signature="n#!!block;n#ToAscArray#0" expanded="false" />
             <element signature="n#!!block;n#ToAscArrayEscapingArgs#0" expanded="false" />
             <element signature="n#!!block;n#ToDescArray#0" expanded="false" />
+            <element signature="n#!!block;n#ToDescArrayEscapingArgs#0" expanded="false" />
             <element signature="n#!!block;n#FindRoot#0" expanded="false" />
             <element signature="n#!!block;n#Cached#0" expanded="false" />
             <element signature="n#!!block;n#GetCache#0" expanded="false" />
             <element signature="n#!!block;n#MustGetCache#0" expanded="false" />
+            <element signature="n#!!block;n#ToRedBlack#0" expanded="false" />
+            <element signature="n#!!block;n#ToAscLinkedList#0" expanded="false" />
             <element signature="n#!!block;n#ToDescLinkedList#0" expanded="false" />
+            <element signature="n#!!block;n#Paint#0" expanded="false" />
+            <element signature="n#!!block;n#GetChildren#0" expanded="false" />
             <element signature="n#!!block;n#Compare#0" expanded="false" />
             <element signature="n#!!block;n#max#0" expanded="false" />
+            <element signature="n#!!block;n#abs#0" expanded="false" />
             <element signature="n#!!block;n#SmartPrint#0" expanded="false" />
             <element signature="n#!!block;n#IfZero#0" expanded="false" />
+            <element signature="n#!!block;n#LevelDataToQueue#0" expanded="false" />
+            <element signature="n#!!block;n#LevelNodeToQueue#0" expanded="false" />
+            <element signature="n#!!block;n#LevelVisitToQueue#0" expanded="false" />
+            <element signature="n#!!block;n#LevelVisitNodeToQueue#0" expanded="false" />
+            <element signature="n#!!block;n#LevelVisitNodeToArray#0" expanded="false" />
+            <element signature="n#!!block;n#LevelVisitToArray#0" expanded="false" />
+            <element signature="n#!!block;n#LevelDataToArray#0" expanded="false" />
+            <element signature="n#!!block;n#GetLevelNodeNumMap#0" expanded="false" />
+            <element signature="n#!!block;n#GetLevelNodeNumArr#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -770,7 +885,7 @@
         <state relative-caret-position="1716">
           <caret line="66" column="19" lean-forward="false" selection-start-line="66" selection-start-column="19" selection-end-line="66" selection-end-column="19" />
           <folding>
-            <element signature="e#15#31#0" expanded="true" />
+            <element signature="e#15#70#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -779,6 +894,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18486">
           <caret line="727" column="0" lean-forward="false" selection-start-line="727" selection-start-column="0" selection-end-line="727" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -794,6 +910,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
           <caret line="7" column="75" lean-forward="true" selection-start-line="7" selection-start-column="75" selection-end-line="7" selection-end-column="75" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -803,7 +920,7 @@
         <state relative-caret-position="1404">
           <caret line="54" column="21" lean-forward="false" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
           <folding>
-            <element signature="e#15#31#0" expanded="true" />
+            <element signature="e#15#70#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -812,6 +929,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18486">
           <caret line="727" column="0" lean-forward="false" selection-start-line="727" selection-start-column="0" selection-end-line="727" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -827,9 +945,16 @@
         <state relative-caret-position="2184">
           <caret line="87" column="49" lean-forward="false" selection-start-line="87" selection-start-column="49" selection-end-line="87" selection-end-column="49" />
           <folding>
+            <element signature="e#15#87#0" expanded="true" />
             <element signature="n#!!block;n#New#0" expanded="false" />
             <element signature="n#!!block;n#NewWithParent#0" expanded="false" />
             <element signature="n#!!block;n#NewWithLeft#0" expanded="false" />
+            <element signature="n#!!block;n#BalanceCopy#0" expanded="false" />
+            <element signature="n#!!block;n#Balance#0" expanded="false" />
+            <element signature="n#!!block;n#RotateWithLeftChild#0" expanded="false" />
+            <element signature="n#!!block;n#DoubleRotateLeftChild#0" expanded="false" />
+            <element signature="n#!!block;n#DoubleRotateRightChild#0" expanded="false" />
+            <element signature="n#!!block;n#RotateWithRightChild#0" expanded="false" />
             <element signature="n#!!block;n#Contain#0" expanded="false" />
             <element signature="n#!!block;n#FindMax#0" expanded="false" />
             <element signature="n#!!block;n#FindMin#0" expanded="false" />
@@ -840,20 +965,36 @@
             <element signature="n#!!block;n#GetDistance#0" expanded="false" />
             <element signature="n#!!block;n#GetMaxDepth#0" expanded="false" />
             <element signature="n#!!block;n#GetMaxDistance#0" expanded="false" />
-            <element signature="n#!!block;n#GetMaxHeight#0" expanded="false" />
+            <element signature="n#!!block;n#GetNodesNum#0" expanded="false" />
+            <element signature="n#!!block;n#GetNodesNumEscapingArgs#0" expanded="false" />
             <element signature="n#!!block;n#GetNodeHeight#0" expanded="false" />
             <element signature="n#!!block;n#ToAscArray#0" expanded="false" />
             <element signature="n#!!block;n#ToAscArrayEscapingArgs#0" expanded="false" />
             <element signature="n#!!block;n#ToDescArray#0" expanded="false" />
+            <element signature="n#!!block;n#ToDescArrayEscapingArgs#0" expanded="false" />
             <element signature="n#!!block;n#FindRoot#0" expanded="false" />
             <element signature="n#!!block;n#Cached#0" expanded="false" />
             <element signature="n#!!block;n#GetCache#0" expanded="false" />
             <element signature="n#!!block;n#MustGetCache#0" expanded="false" />
+            <element signature="n#!!block;n#ToRedBlack#0" expanded="false" />
+            <element signature="n#!!block;n#ToAscLinkedList#0" expanded="false" />
             <element signature="n#!!block;n#ToDescLinkedList#0" expanded="false" />
+            <element signature="n#!!block;n#Paint#0" expanded="false" />
+            <element signature="n#!!block;n#GetChildren#0" expanded="false" />
             <element signature="n#!!block;n#Compare#0" expanded="false" />
             <element signature="n#!!block;n#max#0" expanded="false" />
+            <element signature="n#!!block;n#abs#0" expanded="false" />
             <element signature="n#!!block;n#SmartPrint#0" expanded="false" />
             <element signature="n#!!block;n#IfZero#0" expanded="false" />
+            <element signature="n#!!block;n#LevelDataToQueue#0" expanded="false" />
+            <element signature="n#!!block;n#LevelNodeToQueue#0" expanded="false" />
+            <element signature="n#!!block;n#LevelVisitToQueue#0" expanded="false" />
+            <element signature="n#!!block;n#LevelVisitNodeToQueue#0" expanded="false" />
+            <element signature="n#!!block;n#LevelVisitNodeToArray#0" expanded="false" />
+            <element signature="n#!!block;n#LevelVisitToArray#0" expanded="false" />
+            <element signature="n#!!block;n#LevelDataToArray#0" expanded="false" />
+            <element signature="n#!!block;n#GetLevelNodeNumMap#0" expanded="false" />
+            <element signature="n#!!block;n#GetLevelNodeNumArr#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -862,6 +1003,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
           <caret line="4" column="42" lean-forward="false" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -871,9 +1013,16 @@
         <state relative-caret-position="520">
           <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
           <folding>
+            <element signature="e#15#87#0" expanded="true" />
             <element signature="n#!!block;n#New#0" expanded="false" />
             <element signature="n#!!block;n#NewWithParent#0" expanded="false" />
             <element signature="n#!!block;n#NewWithLeft#0" expanded="false" />
+            <element signature="n#!!block;n#BalanceCopy#0" expanded="false" />
+            <element signature="n#!!block;n#Balance#0" expanded="false" />
+            <element signature="n#!!block;n#RotateWithLeftChild#0" expanded="false" />
+            <element signature="n#!!block;n#DoubleRotateLeftChild#0" expanded="false" />
+            <element signature="n#!!block;n#DoubleRotateRightChild#0" expanded="false" />
+            <element signature="n#!!block;n#RotateWithRightChild#0" expanded="false" />
             <element signature="n#!!block;n#Contain#0" expanded="false" />
             <element signature="n#!!block;n#FindMax#0" expanded="false" />
             <element signature="n#!!block;n#FindMin#0" expanded="false" />
@@ -884,20 +1033,36 @@
             <element signature="n#!!block;n#GetDistance#0" expanded="false" />
             <element signature="n#!!block;n#GetMaxDepth#0" expanded="false" />
             <element signature="n#!!block;n#GetMaxDistance#0" expanded="false" />
-            <element signature="n#!!block;n#GetMaxHeight#0" expanded="false" />
+            <element signature="n#!!block;n#GetNodesNum#0" expanded="false" />
+            <element signature="n#!!block;n#GetNodesNumEscapingArgs#0" expanded="false" />
             <element signature="n#!!block;n#GetNodeHeight#0" expanded="false" />
             <element signature="n#!!block;n#ToAscArray#0" expanded="false" />
             <element signature="n#!!block;n#ToAscArrayEscapingArgs#0" expanded="false" />
             <element signature="n#!!block;n#ToDescArray#0" expanded="false" />
+            <element signature="n#!!block;n#ToDescArrayEscapingArgs#0" expanded="false" />
             <element signature="n#!!block;n#FindRoot#0" expanded="false" />
             <element signature="n#!!block;n#Cached#0" expanded="false" />
             <element signature="n#!!block;n#GetCache#0" expanded="false" />
             <element signature="n#!!block;n#MustGetCache#0" expanded="false" />
+            <element signature="n#!!block;n#ToRedBlack#0" expanded="false" />
+            <element signature="n#!!block;n#ToAscLinkedList#0" expanded="false" />
             <element signature="n#!!block;n#ToDescLinkedList#0" expanded="false" />
+            <element signature="n#!!block;n#Paint#0" expanded="false" />
+            <element signature="n#!!block;n#GetChildren#0" expanded="false" />
             <element signature="n#!!block;n#Compare#0" expanded="false" />
             <element signature="n#!!block;n#max#0" expanded="false" />
+            <element signature="n#!!block;n#abs#0" expanded="false" />
             <element signature="n#!!block;n#SmartPrint#0" expanded="false" />
             <element signature="n#!!block;n#IfZero#0" expanded="false" />
+            <element signature="n#!!block;n#LevelDataToQueue#0" expanded="false" />
+            <element signature="n#!!block;n#LevelNodeToQueue#0" expanded="false" />
+            <element signature="n#!!block;n#LevelVisitToQueue#0" expanded="false" />
+            <element signature="n#!!block;n#LevelVisitNodeToQueue#0" expanded="false" />
+            <element signature="n#!!block;n#LevelVisitNodeToArray#0" expanded="false" />
+            <element signature="n#!!block;n#LevelVisitToArray#0" expanded="false" />
+            <element signature="n#!!block;n#LevelDataToArray#0" expanded="false" />
+            <element signature="n#!!block;n#GetLevelNodeNumMap#0" expanded="false" />
+            <element signature="n#!!block;n#GetLevelNodeNumArr#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -907,7 +1072,7 @@
         <state relative-caret-position="598">
           <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
           <folding>
-            <element signature="e#15#31#0" expanded="true" />
+            <element signature="e#15#70#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -916,13 +1081,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="504" column="0" lean-forward="false" selection-start-line="504" selection-start-column="0" selection-end-line="504" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/go/src/testing/testing.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="727" column="0" lean-forward="false" selection-start-line="727" selection-start-column="0" selection-end-line="727" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -936,54 +1094,100 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/init.go" />
     <entry file="file://$PROJECT_DIR$/btInterface.go" />
-    <entry file="file://$PROJECT_DIR$/../github.com/fwhezfwhez/go-BinaryTree/BinaryNode.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="370" column="21" lean-forward="true" selection-start-line="370" selection-start-column="21" selection-end-line="370" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/doc.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Cached.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="54" column="36" lean-forward="true" selection-start-line="54" selection-start-column="36" selection-end-line="54" selection-end-column="36" />
+        <state relative-caret-position="260">
+          <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/go/src/testing/testing.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="741" column="0" lean-forward="false" selection-start-line="741" selection-start-column="0" selection-end-line="741" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/go/src/os/error.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../github.com/fwhezfwhez/go-queue/queue.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="71" column="16" lean-forward="false" selection-start-line="71" selection-start-column="16" selection-end-line="71" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="52">
+            <caret line="2" column="30" lean-forward="false" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+            <folding>
+              <marker date="1529920931016" expanded="true" signature="314:366" ph="..." />
+              <marker date="1529920931016" expanded="true" signature="409:564" ph="{...}" />
+              <marker date="1529920931016" expanded="true" signature="577:2849" ph="{...}" />
+              <marker date="1529920931016" expanded="true" signature="948:988" ph="/.../" />
+              <marker date="1529920931016" expanded="true" signature="948:1062" ph="/.../" />
+              <marker date="1529920931016" expanded="true" signature="1119:1217" ph="/.../" />
+              <marker date="1529920931016" expanded="true" signature="1260:1380" ph="/.../" />
+              <marker date="1529920931016" expanded="true" signature="2554:2847" ph="/*...*/" />
+              <marker date="1529920931016" expanded="true" signature="2554:2849" ph="/*...*/" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../github.com/fwhezfwhez/go-BinaryTree/BinaryNode.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="165" column="22" lean-forward="true" selection-start-line="165" selection-start-column="22" selection-end-line="165" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BinaryNode_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="233" column="25" lean-forward="false" selection-start-line="233" selection-start-column="25" selection-end-line="233" selection-end-column="25" />
+        <state relative-caret-position="402">
+          <caret line="313" column="1" lean-forward="true" selection-start-line="313" selection-start-column="1" selection-end-line="313" selection-end-column="1" />
           <folding>
-            <element signature="e#15#31#0" expanded="true" />
+            <element signature="e#15#70#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Interface.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="57" column="12" lean-forward="true" selection-start-line="57" selection-start-column="12" selection-end-line="57" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BinaryNode.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-520">
-          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        <state relative-caret-position="388">
+          <caret line="851" column="1" lean-forward="true" selection-start-line="757" selection-start-column="0" selection-end-line="851" selection-end-column="1" />
           <folding>
+            <element signature="e#15#87#0" expanded="true" />
             <element signature="n#!!block;n#New#0" expanded="false" />
             <element signature="n#!!block;n#NewWithParent#0" expanded="false" />
             <element signature="n#!!block;n#NewWithLeft#0" expanded="false" />
+            <element signature="n#!!block;n#BalanceCopy#0" expanded="false" />
+            <element signature="n#!!block;n#Balance#0" expanded="false" />
+            <element signature="n#!!block;n#RotateWithLeftChild#0" expanded="false" />
+            <element signature="n#!!block;n#DoubleRotateLeftChild#0" expanded="false" />
+            <element signature="n#!!block;n#DoubleRotateRightChild#0" expanded="false" />
+            <element signature="n#!!block;n#RotateWithRightChild#0" expanded="false" />
             <element signature="n#!!block;n#Contain#0" expanded="false" />
             <element signature="n#!!block;n#FindMax#0" expanded="false" />
             <element signature="n#!!block;n#FindMin#0" expanded="false" />
@@ -994,42 +1198,47 @@
             <element signature="n#!!block;n#GetDistance#0" expanded="false" />
             <element signature="n#!!block;n#GetMaxDepth#0" expanded="false" />
             <element signature="n#!!block;n#GetMaxDistance#0" expanded="false" />
-            <element signature="n#!!block;n#GetMaxHeight#0" expanded="false" />
+            <element signature="n#!!block;n#GetNodesNum#0" expanded="false" />
+            <element signature="n#!!block;n#GetNodesNumEscapingArgs#0" expanded="false" />
             <element signature="n#!!block;n#GetNodeHeight#0" expanded="false" />
             <element signature="n#!!block;n#ToAscArray#0" expanded="false" />
             <element signature="n#!!block;n#ToAscArrayEscapingArgs#0" expanded="false" />
             <element signature="n#!!block;n#ToDescArray#0" expanded="false" />
+            <element signature="n#!!block;n#ToDescArrayEscapingArgs#0" expanded="false" />
             <element signature="n#!!block;n#FindRoot#0" expanded="false" />
             <element signature="n#!!block;n#Cached#0" expanded="false" />
             <element signature="n#!!block;n#GetCache#0" expanded="false" />
             <element signature="n#!!block;n#MustGetCache#0" expanded="false" />
+            <element signature="n#!!block;n#ToRedBlack#0" expanded="false" />
+            <element signature="n#!!block;n#ToAscLinkedList#0" expanded="false" />
             <element signature="n#!!block;n#ToDescLinkedList#0" expanded="false" />
+            <element signature="n#!!block;n#Paint#0" expanded="false" />
+            <element signature="n#!!block;n#GetChildren#0" expanded="false" />
             <element signature="n#!!block;n#Compare#0" expanded="false" />
             <element signature="n#!!block;n#max#0" expanded="false" />
+            <element signature="n#!!block;n#abs#0" expanded="false" />
             <element signature="n#!!block;n#SmartPrint#0" expanded="false" />
             <element signature="n#!!block;n#IfZero#0" expanded="false" />
+            <element signature="n#!!block;n#LevelDataToQueue#0" expanded="false" />
+            <element signature="n#!!block;n#LevelNodeToQueue#0" expanded="false" />
+            <element signature="n#!!block;n#LevelVisitToQueue#0" expanded="false" />
+            <element signature="n#!!block;n#LevelVisitNodeToQueue#0" expanded="false" />
+            <element signature="n#!!block;n#LevelVisitNodeToArray#0" expanded="false" />
+            <element signature="n#!!block;n#LevelVisitToArray#0" expanded="false" />
+            <element signature="n#!!block;n#LevelDataToArray#0" expanded="false" />
+            <element signature="n#!!block;n#GetLevelNodeNumMap#0" expanded="false" />
+            <element signature="n#!!block;n#GetLevelNodeNumArr#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="242">
-            <caret line="84" column="58" lean-forward="false" selection-start-line="84" selection-start-column="58" selection-end-line="84" selection-end-column="58" />
-            <folding>
-              <marker date="1529643027813" expanded="true" signature="227:279" ph="..." />
-              <marker date="1529643027813" expanded="true" signature="322:477" ph="{...}" />
-              <marker date="1529643027813" expanded="true" signature="490:2762" ph="{...}" />
-              <marker date="1529643027813" expanded="true" signature="861:901" ph="/.../" />
-              <marker date="1529643027813" expanded="true" signature="861:975" ph="/.../" />
-              <marker date="1529643027813" expanded="true" signature="1032:1130" ph="/.../" />
-              <marker date="1529643027813" expanded="true" signature="1173:1293" ph="/.../" />
-              <marker date="1529643027813" expanded="true" signature="2467:2760" ph="/*...*/" />
-              <marker date="1529643027813" expanded="true" signature="2467:2762" ph="/*...*/" />
-            </folding>
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/Interface.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="43" column="43" lean-forward="true" selection-start-line="43" selection-start-column="43" selection-end-line="43" selection-end-column="43" />
+          <folding>
+            <element signature="e#15#54#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
